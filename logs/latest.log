@@ -1,229 +1,386 @@
-[02:21:52] [Server thread/INFO]: Starting minecraft server version 1.15.2
-[02:21:52] [Server thread/INFO]: Loading properties
-[02:21:53] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-2040c4c-77fd87e (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
-[02:21:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:21:53] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:21:53] [Server thread/INFO]: Debug logging is disabled
-[02:21:53] [Server thread/INFO]: Default game type: SURVIVAL
-[02:21:53] [Server thread/INFO]: Generating keypair
-[02:21:55] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:21:55] [Server thread/INFO]: Using default channel type
-[02:21:57] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.1.6
-[02:21:57] [Server thread/INFO]: [Timber] Loading Timber v1.0.7
-[02:21:57] [Server thread/INFO]: [OpenInv] Loading OpenInv v4.1.0
-[02:21:57] [Server thread/INFO]: [DeadChest] Loading DeadChest v3.2
-[02:21:57] [Server thread/INFO]: [InvSort] Loading InvSort v1.1.0
-[02:21:57] [Server thread/INFO]: [SilkSpawners] Loading SilkSpawners v6.0.0
-[02:21:57] [Server thread/INFO]: Preparing level "world"
-[02:21:58] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[02:22:45] [Server thread/INFO]: Loaded 6 recipes
-[02:22:47] [Server thread/INFO]: -------- World Settings For [world] --------
-[02:22:47] [Server thread/INFO]: Experience Merge Radius: 3.0
-[02:22:47] [Server thread/INFO]: Mob Spawn Range: 6
-[02:22:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Cane Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Melon Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Potato Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Vine Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[02:22:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[02:22:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[02:22:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[02:22:47] [Server thread/INFO]: Max TNT Explosions: 100
-[02:22:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[02:22:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[02:22:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[02:22:47] [Server thread/INFO]: Item Despawn Rate: 6000
-[02:22:47] [Server thread/INFO]: Item Merge Radius: 2.5
-[02:22:47] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[02:22:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[02:22:47] [Server thread/INFO]: View Distance: 10
-[02:22:47] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[02:22:47] [Server thread/INFO]: Experience Merge Radius: 3.0
-[02:22:47] [Server thread/INFO]: Mob Spawn Range: 6
-[02:22:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Cane Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Melon Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Potato Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Vine Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[02:22:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[02:22:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[02:22:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[02:22:47] [Server thread/INFO]: Max TNT Explosions: 100
-[02:22:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[02:22:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[02:22:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[02:22:47] [Server thread/INFO]: Item Despawn Rate: 6000
-[02:22:47] [Server thread/INFO]: Item Merge Radius: 2.5
-[02:22:47] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[02:22:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[02:22:47] [Server thread/INFO]: View Distance: 10
-[02:22:47] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[02:22:47] [Server thread/INFO]: Experience Merge Radius: 3.0
-[02:22:47] [Server thread/INFO]: Mob Spawn Range: 6
-[02:22:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Cane Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Melon Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Potato Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Vine Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[02:22:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[02:22:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[02:22:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[02:22:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[02:22:47] [Server thread/INFO]: Max TNT Explosions: 100
-[02:22:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[02:22:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[02:22:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[02:22:47] [Server thread/INFO]: Item Despawn Rate: 6000
-[02:22:47] [Server thread/INFO]: Item Merge Radius: 2.5
-[02:22:47] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[02:22:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[02:22:47] [Server thread/INFO]: View Distance: 10
-[02:22:47] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[02:22:52] [Server thread/INFO]: Preparing spawn area: 0%
-[02:22:52] [Server thread/INFO]: Preparing spawn area: 0%
-[02:22:52] [Server thread/INFO]: Preparing spawn area: 0%
-[02:22:52] [Server thread/INFO]: Preparing spawn area: 0%
-[02:22:52] [Server thread/INFO]: Preparing spawn area: 0%
-[02:22:52] [Server thread/INFO]: Preparing spawn area: 0%
-[02:22:52] [Server thread/INFO]: Preparing spawn area: 0%
-[02:22:52] [Server thread/INFO]: Preparing spawn area: 0%
-[02:22:52] [Server thread/INFO]: Preparing spawn area: 0%
-[02:22:52] [Server thread/INFO]: Preparing spawn area: 0%
-[02:22:52] [Server thread/INFO]: Preparing spawn area: 0%
-[02:22:53] [Server thread/INFO]: Preparing spawn area: 0%
-[02:22:53] [Server thread/INFO]: Preparing spawn area: 0%
-[02:22:55] [Server thread/INFO]: Preparing spawn area: 2%
-[02:22:55] [Server thread/INFO]: Preparing spawn area: 2%
-[02:22:55] [Server thread/INFO]: Preparing spawn area: 2%
-[02:22:56] [Server thread/INFO]: Preparing spawn area: 21%
-[02:22:56] [Server thread/INFO]: Preparing spawn area: 50%
-[02:22:57] [Server thread/INFO]: Preparing spawn area: 77%
-[02:22:57] [Server thread/INFO]: Time elapsed: 9487 ms
-[02:22:57] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[02:23:00] [Server thread/INFO]: Preparing spawn area: 0%
-[02:23:00] [Server thread/INFO]: Preparing spawn area: 0%
-[02:23:00] [Server thread/INFO]: Preparing spawn area: 0%
-[02:23:00] [Server thread/INFO]: Preparing spawn area: 0%
-[02:23:00] [Server thread/INFO]: Preparing spawn area: 0%
-[02:23:00] [Server thread/INFO]: Preparing spawn area: 0%
-[02:23:00] [Server thread/INFO]: Preparing spawn area: 0%
-[02:23:00] [Server thread/INFO]: Preparing spawn area: 0%
-[02:23:01] [Server thread/INFO]: Preparing spawn area: 0%
-[02:23:01] [Server thread/INFO]: Preparing spawn area: 83%
-[02:23:02] [Server-Worker-1/INFO]: Preparing spawn area: 95%
-[02:23:03] [Server-Worker-2/INFO]: Preparing spawn area: 95%
-[02:23:03] [Server-Worker-2/INFO]: Preparing spawn area: 95%
-[02:23:03] [Server-Worker-2/INFO]: Preparing spawn area: 95%
-[02:23:04] [Server-Worker-3/INFO]: Preparing spawn area: 95%
-[02:23:04] [Server-Worker-3/INFO]: Preparing spawn area: 95%
-[02:23:05] [Server-Worker-3/INFO]: Preparing spawn area: 95%
-[02:23:05] [Server-Worker-1/INFO]: Preparing spawn area: 96%
-[02:23:06] [Server-Worker-3/INFO]: Preparing spawn area: 98%
-[02:23:06] [Server thread/INFO]: Time elapsed: 9360 ms
-[02:23:06] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[02:23:07] [Server thread/INFO]: Preparing spawn area: 0%
-[02:23:07] [Server thread/INFO]: Preparing spawn area: 0%
-[02:23:07] [Server thread/INFO]: Preparing spawn area: 0%
-[02:23:08] [Server-Worker-3/INFO]: Preparing spawn area: 83%
-[02:23:08] [Server-Worker-2/INFO]: Preparing spawn area: 83%
-[02:23:09] [Server-Worker-2/INFO]: Preparing spawn area: 83%
-[02:23:09] [Server-Worker-1/INFO]: Preparing spawn area: 83%
-[02:23:10] [Server-Worker-1/INFO]: Preparing spawn area: 83%
-[02:23:10] [Server-Worker-1/INFO]: Preparing spawn area: 89%
-[02:23:11] [Server thread/INFO]: Time elapsed: 4375 ms
-[02:23:11] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.1.6
-[02:23:11] [Server thread/INFO]: [ClearLag] Loading modules...
-[02:23:11] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[02:23:11] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[02:23:11] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[02:23:11] [Server thread/INFO]: [Timber] Enabling Timber v1.0.7
-[02:23:11] [Thread-11/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.15]...
-[02:23:11] [Server thread/INFO]: Timber Log Materials: [OAK_LOG, DARK_OAK_LOG, ACACIA_LOG, BIRCH_LOG, JUNGLE_LOG, SPRUCE_LOG]
-[02:23:11] [Server thread/INFO]: Timber Axe Materials: [STONE_AXE, DIAMOND_AXE, WOODEN_AXE, GOLDEN_AXE, IRON_AXE]
-[02:23:11] [Server thread/INFO]: [OpenInv] Enabling OpenInv v4.1.0
-[02:23:12] [Server thread/INFO]: [DeadChest] Enabling DeadChest v3.2
-[02:23:12] [Server thread/INFO]: [InvSort] Enabling InvSort v1.1.0
-[02:23:12] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v6.0.0
-[02:23:13] [Server thread/INFO]: [SilkSpawners] WorldGuard was not found and support is disabled
-[02:23:13] [Server thread/INFO]: [SilkSpawners] Loading support for v1_15_R1
-[02:23:13] [Server thread/INFO]: [SilkSpawners] AutoUpdater is enabled.
-[02:23:13] [Thread-11/INFO]: [ClearLag] No updates found!
-[02:23:13] [Server thread/INFO]: [SilkSpawners] Result from AutoUpdater is: NO_UPDATE
-[02:23:14] [Server thread/INFO]: [SilkSpawners] BarAPI is disabled due to config setting.
-[02:23:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:23:14] [Server thread/INFO]: Done (76.400s)! For help, type "help"
-[02:23:26] [Server thread/INFO]: [Server] restart in 60
-[02:23:34] [Server thread/INFO]: Villager EntityVillager['Weaponsmith'/45, l='world', x=333.70, y=86.00, z=114.30] died, message: 'Weaponsmith was slain by Zombie'
-[02:23:49] [User Authenticator #1/INFO]: UUID of player Fox_in_Trap147 is 6e9bf9ca-9913-4af9-bcbd-fd5148f36fe9
-[02:23:51] [Server thread/INFO]: Fox_in_Trap147[/178.194.152.169:56476] logged in with entity id 202 at ([world]2282.581311678908, 64.0, -156.0547455501533)
-[02:23:56] [Server thread/INFO]: [Server] restart in 30
-[02:24:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5048ms or 100 ticks behind
-[02:24:04] [User Authenticator #2/INFO]: UUID of player miliena is 446a55c1-1fb5-4c10-9c65-1acbbf3b4cd9
-[02:24:07] [Server thread/INFO]: miliena[/188.155.120.213:50118] logged in with entity id 374 at ([world_nether]402.23998083253247, 62.0, 654.6999999880791)
-[02:24:11] [Server thread/INFO]: [Server] restart in 15
-[02:24:21] [Server thread/INFO]: [Server] restart in 10
-[02:24:21] [Server thread/INFO]: Fox_in_Trap147 lost connection: Disconnected
-[02:24:21] [Server thread/INFO]: Fox_in_Trap147 left the game
-[02:24:24] [Server thread/INFO]: miliena lost connection: Disconnected
-[02:24:25] [Server thread/INFO]: miliena left the game
-[02:24:26] [Server thread/INFO]: [Server] restart in 5
-[02:24:27] [Server thread/INFO]: [Server] restart in 4
-[02:24:28] [Server thread/INFO]: [Server] restart in 3
-[02:24:29] [Server thread/INFO]: [Server] restart in 2
-[02:24:30] [Server thread/INFO]: [Server] restart in 1
-[02:24:31] [Server thread/INFO]: [Server] restart
-[02:24:31] [Server thread/INFO]: Stopping the server
-[02:24:31] [Server thread/INFO]: Stopping server
-[02:24:31] [Server thread/INFO]: [SilkSpawners] Disabling SilkSpawners v6.0.0
-[02:24:31] [Server thread/INFO]: [InvSort] Disabling InvSort v1.1.0
-[02:24:31] [Server thread/INFO]: [DeadChest] Disabling DeadChest v3.2
-[02:24:31] [Server thread/INFO]: [OpenInv] Disabling OpenInv v4.1.0
-[02:24:31] [Server thread/INFO]: [Timber] Disabling Timber v1.0.7
-[02:24:31] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.1.6
-[02:24:31] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[02:24:31] [Server thread/INFO]: Saving players
-[02:24:31] [Server thread/INFO]: Saving worlds
-[02:24:31] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[02:24:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:24:34] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[02:24:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:24:36] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[02:24:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:24:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:24:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:24:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:08:57] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[03:08:57] [Server thread/INFO]: Loading properties
+[03:08:58] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-2040c4c-77fd87e (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[03:08:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:08:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:08:59] [Server thread/INFO]: Debug logging is disabled
+[03:08:59] [Server thread/INFO]: Default game type: SURVIVAL
+[03:08:59] [Server thread/INFO]: Generating keypair
+[03:09:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:09:01] [Server thread/INFO]: Using default channel type
+[03:09:03] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.1.6
+[03:09:03] [Server thread/INFO]: [Timber] Loading Timber v1.0.7
+[03:09:03] [Server thread/INFO]: [OpenInv] Loading OpenInv v4.1.0
+[03:09:03] [Server thread/INFO]: [DeadChest] Loading DeadChest v3.2
+[03:09:03] [Server thread/INFO]: [InvSort] Loading InvSort v1.1.0
+[03:09:03] [Server thread/INFO]: [SilkSpawners] Loading SilkSpawners v6.0.0
+[03:09:03] [Server thread/INFO]: Preparing level "world"
+[03:09:04] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[03:09:40] [Server thread/INFO]: Loaded 6 recipes
+[03:09:44] [Server thread/INFO]: -------- World Settings For [world] --------
+[03:09:44] [Server thread/INFO]: Experience Merge Radius: 3.0
+[03:09:44] [Server thread/INFO]: Mob Spawn Range: 6
+[03:09:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[03:09:44] [Server thread/INFO]: Cane Growth Modifier: 100%
+[03:09:44] [Server thread/INFO]: Melon Growth Modifier: 100%
+[03:09:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[03:09:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[03:09:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[03:09:44] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[03:09:44] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[03:09:44] [Server thread/INFO]: Potato Growth Modifier: 100%
+[03:09:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[03:09:44] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[03:09:44] [Server thread/INFO]: Vine Growth Modifier: 100%
+[03:09:44] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[03:09:44] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[03:09:44] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[03:09:44] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[03:09:44] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:09:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:09:44] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:09:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[03:09:44] [Server thread/INFO]: Max TNT Explosions: 100
+[03:09:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:09:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[03:09:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[03:09:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:09:44] [Server thread/INFO]: Item Despawn Rate: 6000
+[03:09:44] [Server thread/INFO]: Item Merge Radius: 2.5
+[03:09:44] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:09:44] [Server thread/INFO]: View Distance: 10
+[03:09:51] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[03:09:51] [Server thread/INFO]: Experience Merge Radius: 3.0
+[03:09:51] [Server thread/INFO]: Mob Spawn Range: 6
+[03:09:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Potato Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Vine Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:09:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:09:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:09:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[03:09:51] [Server thread/INFO]: Max TNT Explosions: 100
+[03:09:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:09:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[03:09:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[03:09:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:09:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[03:09:51] [Server thread/INFO]: Item Merge Radius: 2.5
+[03:09:51] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:09:51] [Server thread/INFO]: View Distance: 10
+[03:09:51] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[03:09:51] [Server thread/INFO]: Experience Merge Radius: 3.0
+[03:09:51] [Server thread/INFO]: Mob Spawn Range: 6
+[03:09:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Potato Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Vine Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[03:09:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:09:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:09:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:09:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[03:09:51] [Server thread/INFO]: Max TNT Explosions: 100
+[03:09:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:09:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[03:09:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[03:09:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:09:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[03:09:51] [Server thread/INFO]: Item Merge Radius: 2.5
+[03:09:51] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:09:51] [Server thread/INFO]: View Distance: 10
+[03:09:51] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[03:09:56] [Server thread/INFO]: Preparing spawn area: 0%
+[03:09:56] [Server thread/INFO]: Preparing spawn area: 0%
+[03:09:56] [Server thread/INFO]: Preparing spawn area: 0%
+[03:09:56] [Server thread/INFO]: Preparing spawn area: 0%
+[03:09:56] [Server thread/INFO]: Preparing spawn area: 0%
+[03:09:56] [Server thread/INFO]: Preparing spawn area: 0%
+[03:09:56] [Server thread/INFO]: Preparing spawn area: 0%
+[03:09:56] [Server thread/INFO]: Preparing spawn area: 0%
+[03:09:56] [Server thread/INFO]: Preparing spawn area: 0%
+[03:09:56] [Server thread/INFO]: Preparing spawn area: 0%
+[03:09:56] [Server thread/INFO]: Preparing spawn area: 0%
+[03:09:57] [Server thread/INFO]: Preparing spawn area: 0%
+[03:09:57] [Server thread/INFO]: Preparing spawn area: 0%
+[03:09:58] [Server thread/INFO]: Preparing spawn area: 0%
+[03:09:58] [Server thread/INFO]: Preparing spawn area: 0%
+[03:09:59] [Server thread/INFO]: Preparing spawn area: 44%
+[03:09:59] [Server thread/INFO]: Preparing spawn area: 44%
+[03:10:00] [Server thread/INFO]: Preparing spawn area: 70%
+[03:10:00] [Server thread/INFO]: Time elapsed: 9192 ms
+[03:10:00] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[03:10:04] [Server thread/INFO]: Preparing spawn area: 0%
+[03:10:04] [Server thread/INFO]: Preparing spawn area: 0%
+[03:10:04] [Server thread/INFO]: Preparing spawn area: 0%
+[03:10:04] [Server thread/INFO]: Preparing spawn area: 0%
+[03:10:04] [Server thread/INFO]: Preparing spawn area: 0%
+[03:10:04] [Server thread/INFO]: Preparing spawn area: 0%
+[03:10:04] [Server thread/INFO]: Preparing spawn area: 0%
+[03:10:04] [Server thread/INFO]: Preparing spawn area: 0%
+[03:10:04] [Server thread/INFO]: Preparing spawn area: 45%
+[03:10:05] [Server-Worker-2/INFO]: Preparing spawn area: 95%
+[03:10:05] [Server-Worker-1/INFO]: Preparing spawn area: 95%
+[03:10:06] [Server-Worker-2/INFO]: Preparing spawn area: 95%
+[03:10:06] [Server-Worker-3/INFO]: Preparing spawn area: 95%
+[03:10:07] [Server-Worker-3/INFO]: Preparing spawn area: 95%
+[03:10:07] [Server-Worker-1/INFO]: Preparing spawn area: 95%
+[03:10:08] [Server-Worker-2/INFO]: Preparing spawn area: 95%
+[03:10:08] [Server-Worker-2/INFO]: Preparing spawn area: 95%
+[03:10:09] [Server thread/INFO]: Preparing spawn area: 95%
+[03:10:09] [Server-Worker-1/INFO]: Preparing spawn area: 96%
+[03:10:10] [Server-Worker-2/INFO]: Preparing spawn area: 99%
+[03:10:10] [Server thread/INFO]: Time elapsed: 9534 ms
+[03:10:10] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[03:10:11] [Server thread/INFO]: Preparing spawn area: 0%
+[03:10:11] [Server thread/INFO]: Preparing spawn area: 0%
+[03:10:11] [Server thread/INFO]: Preparing spawn area: 0%
+[03:10:11] [Server thread/INFO]: Preparing spawn area: 62%
+[03:10:12] [Server-Worker-2/INFO]: Preparing spawn area: 83%
+[03:10:12] [Server-Worker-2/INFO]: Preparing spawn area: 83%
+[03:10:13] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[03:10:13] [Server-Worker-2/INFO]: Preparing spawn area: 83%
+[03:10:14] [Server-Worker-2/INFO]: Preparing spawn area: 87%
+[03:10:14] [Server-Worker-1/INFO]: Preparing spawn area: 93%
+[03:10:15] [Server thread/INFO]: Time elapsed: 4811 ms
+[03:10:15] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.1.6
+[03:10:15] [Server thread/INFO]: [ClearLag] Loading modules...
+[03:10:15] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[03:10:16] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[03:10:16] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[03:10:16] [Thread-11/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.15]...
+[03:10:16] [Server thread/INFO]: [Timber] Enabling Timber v1.0.7
+[03:10:16] [Server thread/INFO]: Timber Log Materials: [BIRCH_LOG, JUNGLE_LOG, DARK_OAK_LOG, ACACIA_LOG, OAK_LOG, SPRUCE_LOG]
+[03:10:16] [Server thread/INFO]: Timber Axe Materials: [STONE_AXE, WOODEN_AXE, IRON_AXE, GOLDEN_AXE, DIAMOND_AXE]
+[03:10:16] [Server thread/INFO]: [OpenInv] Enabling OpenInv v4.1.0
+[03:10:16] [Server thread/INFO]: [DeadChest] Enabling DeadChest v3.2
+[03:10:16] [Server thread/INFO]: [InvSort] Enabling InvSort v1.1.0
+[03:10:16] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v6.0.0
+[03:10:17] [Server thread/INFO]: [SilkSpawners] WorldGuard was not found and support is disabled
+[03:10:17] [Server thread/INFO]: [SilkSpawners] Loading support for v1_15_R1
+[03:10:17] [Server thread/INFO]: [SilkSpawners] AutoUpdater is enabled.
+[03:10:18] [Server thread/INFO]: [SilkSpawners] Result from AutoUpdater is: NO_UPDATE
+[03:10:18] [Server thread/INFO]: [SilkSpawners] BarAPI is disabled due to config setting.
+[03:10:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:10:18] [Thread-11/INFO]: [ClearLag] No updates found!
+[03:10:18] [Server thread/INFO]: Done (74.927s)! For help, type "help"
+[03:10:18] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[03:10:18] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[03:10:18] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[03:10:18] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[03:11:44] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[03:12:47] [User Authenticator #1/INFO]: UUID of player Raptor346 is 2bf10171-64f9-4147-a5e8-12f7a83f833c
+[03:12:49] [Server thread/INFO]: Raptor346[/192.168.0.1:60988] logged in with entity id 197 at ([world]373.4282059711089, 74.0, 63.38852282438779)
+[03:12:50] [User Authenticator #2/INFO]: UUID of player miliena is 446a55c1-1fb5-4c10-9c65-1acbbf3b4cd9
+[03:12:54] [Server thread/INFO]: miliena[/188.155.120.213:51797] logged in with entity id 221 at ([world]407.87987050514744, 69.0, 54.26607936125639)
+[03:12:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7108ms or 142 ticks behind
+[03:12:54] [User Authenticator #3/INFO]: UUID of player Fox_in_Trap147 is 6e9bf9ca-9913-4af9-bcbd-fd5148f36fe9
+[03:12:57] [Server thread/INFO]: Fox_in_Trap147[/178.194.152.169:56739] logged in with entity id 238 at ([world]3408.699999988079, 55.0, 379.56914665383425)
+[03:12:58] [User Authenticator #4/INFO]: UUID of player TheDarkAbility is ff1819de-3faa-4c7d-80c6-f22668da52b6
+[03:13:01] [Server thread/INFO]: TheDarkAbility[/178.199.222.116:51785] logged in with entity id 310 at ([world_nether]385.50221467803505, 67.92159999847412, 616.5057360136153)
+[03:13:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 31658ms or 633 ticks behind
+[03:14:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5044ms or 100 ticks behind
+[03:15:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20412ms or 408 ticks behind
+[03:16:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11790ms or 235 ticks behind
+[03:16:35] [Server thread/WARN]: miliena moved too quickly! -11.299584777493465,1.0,-26.16390249339628
+[03:17:10] [Server thread/INFO]: miliena lost connection: Disconnected
+[03:17:10] [Server thread/INFO]: miliena left the game
+[03:17:25] [User Authenticator #5/INFO]: UUID of player miliena is 446a55c1-1fb5-4c10-9c65-1acbbf3b4cd9
+[03:17:28] [Server thread/INFO]: miliena[/188.155.120.213:51944] logged in with entity id 1768 at ([world]228.46442600266633, 24.0, 125.49412813395634)
+[03:17:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5043ms or 100 ticks behind
+[03:18:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10182ms or 203 ticks behind
+[03:18:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6073ms or 121 ticks behind
+[03:19:03] [Server thread/INFO]: Fox_in_Trap147 lost connection: Disconnected
+[03:19:03] [Server thread/INFO]: Fox_in_Trap147 left the game
+[03:19:13] [Server thread/INFO]: miliena lost connection: Disconnected
+[03:19:13] [Server thread/INFO]: miliena left the game
+[03:19:22] [Server thread/WARN]: TheDarkAbility moved too quickly! -10.602531577364232,-1.252203340253729,-13.333083207709024
+[03:19:22] [User Authenticator #6/INFO]: UUID of player Fox_in_Trap147 is 6e9bf9ca-9913-4af9-bcbd-fd5148f36fe9
+[03:19:27] [Server thread/INFO]: Fox_in_Trap147[/178.194.152.169:56772] logged in with entity id 2443 at ([world]3400.4800676834698, 62.0, 436.56264571387504)
+[03:19:29] [Server thread/INFO]: Fox_in_Trap147 lost connection: Disconnected
+[03:19:29] [Server thread/INFO]: Fox_in_Trap147 left the game
+[03:19:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19434ms or 388 ticks behind
+[03:19:35] [User Authenticator #7/INFO]: UUID of player Fox_in_Trap147 is 6e9bf9ca-9913-4af9-bcbd-fd5148f36fe9
+[03:19:36] [Server thread/INFO]: Fox_in_Trap147[/178.194.152.169:56793] logged in with entity id 2593 at ([world]3400.4800676834698, 62.0, 436.56264571387504)
+[03:19:36] [Server thread/INFO]: Raptor346 issued server command: /time set day
+[03:19:36] [Server thread/INFO]: [Raptor346: Set the time to 1000]
+[03:19:38] [User Authenticator #8/INFO]: UUID of player miliena is 446a55c1-1fb5-4c10-9c65-1acbbf3b4cd9
+[03:19:39] [Server thread/INFO]: miliena[/188.155.120.213:51978] logged in with entity id 2637 at ([world]231.55914241538332, 12.0, 249.30000001192096)
+[03:20:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11624ms or 232 ticks behind
+[03:22:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12846ms or 256 ticks behind
+[03:22:53] [Async Chat Thread - #0/INFO]: <Raptor346> 47 86 13[m
+[03:23:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11861ms or 237 ticks behind
+[03:26:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[03:28:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7083ms or 141 ticks behind
+[03:28:04] [Server thread/WARN]: TheDarkAbility moved too quickly! -5.961439001863766,6.756759288177264,-4.602237380675209
+[03:28:41] [Server thread/INFO]: Raptor346 issued server command: /lagg
+[03:29:00] [Server thread/INFO]: Raptor346 issued server command: /lagg admin
+[03:29:04] [Server thread/INFO]: Raptor346 issued server command: /lagg admin stop
+[03:30:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5098ms or 101 ticks behind
+[03:31:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5623ms or 112 ticks behind
+[03:33:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
+[03:35:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
+[03:38:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7746ms or 154 ticks behind
+[03:38:32] [Server thread/INFO]: TheDarkAbility fell from a high place
+[03:39:48] [Server thread/INFO]: Raptor346 lost connection: Disconnected
+[03:39:48] [Server thread/INFO]: Raptor346 left the game
+[03:40:36] [User Authenticator #9/INFO]: UUID of player Raptor346 is 2bf10171-64f9-4147-a5e8-12f7a83f833c
+[03:40:38] [Server thread/INFO]: Raptor346[/192.168.0.1:61707] logged in with entity id 11539 at ([world_nether]249.34727691381093, 60.0, 326.89152294081)
+[03:40:45] [Server thread/INFO]: Raptor346 lost connection: Disconnected
+[03:40:46] [Server thread/INFO]: Raptor346 left the game
+[03:40:54] [User Authenticator #10/INFO]: UUID of player Raptor346 is 2bf10171-64f9-4147-a5e8-12f7a83f833c
+[03:40:55] [Server thread/INFO]: Raptor346[/192.168.0.1:61936] logged in with entity id 11670 at ([world_nether]249.34727691381093, 60.0, 326.89152294081)
+[03:41:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5025ms or 100 ticks behind
+[03:42:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19785ms or 395 ticks behind
+[03:42:03] [Server thread/INFO]: TheDarkAbility burned to death
+[03:42:12] [Async Chat Thread - #1/INFO]: <Raptor346> bruhdi[m
+[03:42:34] [Server thread/INFO]: Raptor346 lost connection: Disconnected
+[03:42:34] [Server thread/INFO]: Raptor346 left the game
+[03:42:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9853ms or 197 ticks behind
+[03:43:04] [Server thread/INFO]: TheDarkAbility has made the advancement [A Seedy Place]
+[03:43:14] [User Authenticator #11/INFO]: UUID of player Raptor346 is 2bf10171-64f9-4147-a5e8-12f7a83f833c
+[03:43:15] [Server thread/INFO]: Raptor346 lost connection: Disconnected
+[03:43:15] [Server thread/INFO]: Raptor346 left the game
+[03:43:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17000ms or 340 ticks behind
+[03:44:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12714ms or 254 ticks behind
+[03:44:57] [Server thread/WARN]: TheDarkAbility moved too quickly! 10.882754199306142,-6.0,3.821575864124995
+[03:45:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24431ms or 488 ticks behind
+[03:45:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7824ms or 156 ticks behind
+[03:45:49] [User Authenticator #12/INFO]: UUID of player Raptor346 is 2bf10171-64f9-4147-a5e8-12f7a83f833c
+[03:45:52] [Server thread/INFO]: Raptor346[/192.168.0.1:62061] logged in with entity id 16743 at ([world_nether]249.34727691381093, 60.0, 326.89152294081)
+[03:46:14] [Server thread/INFO]: Raptor346 lost connection: Disconnected
+[03:46:14] [Server thread/INFO]: Raptor346 left the game
+[03:46:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10569ms or 211 ticks behind
+[03:46:54] [User Authenticator #13/INFO]: UUID of player Raptor346 is 2bf10171-64f9-4147-a5e8-12f7a83f833c
+[03:46:55] [Server thread/INFO]: Raptor346[/192.168.0.1:62079] logged in with entity id 17384 at ([world_nether]249.34727691381093, 60.0, 326.89152294081)
+[03:46:56] [Server thread/WARN]: miliena moved wrongly!
+[03:50:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6260ms or 125 ticks behind
+[03:50:25] [Server thread/WARN]: Fox_in_Trap147 moved too quickly! -1.4415173440993385,-1.2468000194787976,-10.055542637506534
+[03:50:26] [Server thread/INFO]: Raptor346 has made the advancement [A Terrible Fortress]
+[03:55:15] [Server thread/INFO]: TheDarkAbility fell from a high place
+[03:55:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7213ms or 144 ticks behind
+[03:55:32] [Server thread/WARN]: TheDarkAbility moved too quickly! 6.1141533751598445,-4.001335979112142,-7.258037895554537
+[03:57:04] [Server thread/INFO]: TheDarkAbility has made the advancement [The Parrots and the Bats]
+[03:58:50] [Server thread/INFO]: TheDarkAbility has made the advancement [Hot Stuff]
+[04:01:42] [Server thread/INFO]: TheDarkAbility issued server command: /locate fortress
+[04:01:48] [Server thread/INFO]: TheDarkAbility issued server command: /locate Fortress
+[04:02:46] [Server thread/INFO]: TheDarkAbility issued server command: /locate Fortress
+[04:04:12] [Server thread/WARN]: TheDarkAbility moved wrongly!
+[04:05:19] [Server thread/INFO]: TheDarkAbility issued server command: /locate Fortress
+[04:05:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5031ms or 100 ticks behind
+[04:05:37] [Server thread/WARN]: TheDarkAbility moved wrongly!
+[04:06:39] [Server thread/INFO]: Raptor346 lost connection: Disconnected
+[04:06:39] [Server thread/INFO]: Raptor346 left the game
+[04:07:03] [Server thread/INFO]: TheDarkAbility issued server command: /locate Fortress
+[04:07:54] [Server thread/INFO]: TheDarkAbility issued server command: /give TheDarkAbility minecraft:iron_pickaxe
+[04:07:54] [Server thread/INFO]: [TheDarkAbility: Gave 1 [Iron Pickaxe] to TheDarkAbility]
+[04:08:56] [User Authenticator #14/INFO]: UUID of player Raptor346 is 2bf10171-64f9-4147-a5e8-12f7a83f833c
+[04:08:59] [Server thread/INFO]: Raptor346[/192.168.0.1:63062] logged in with entity id 23912 at ([world]412.45180090398225, 72.0, 70.61860503469825)
+[04:09:27] [Server thread/INFO]: TheDarkAbility withered away
+[04:09:32] [Server thread/INFO]: Raptor346 was slain by miliena
+[04:09:57] [Server thread/INFO]: Raptor346 was slain by miliena
+[04:10:03] [Server thread/INFO]: Raptor346 issued server command: /tp Fox_in_Trap147
+[04:10:03] [Server thread/INFO]: [Raptor346: Teleported Raptor346 to Fox_in_Trap147]
+[04:10:35] [Server thread/INFO]: TheDarkAbility issued server command: /tp TheDarkAbility -357 60 361
+[04:10:35] [Server thread/INFO]: [TheDarkAbility: Teleported TheDarkAbility to -356.5, 60.0, 361.5]
+[04:11:25] [Server thread/INFO]: Raptor346 issued server command: /tp TheDarkAbility
+[04:11:25] [Server thread/INFO]: [Raptor346: Teleported Raptor346 to TheDarkAbility]
+[04:11:36] [Server thread/INFO]: Raptor346 was slain by TheDarkAbility
+[04:12:15] [Server thread/INFO]: Raptor346 was slain by miliena
+[04:13:10] [Server thread/INFO]: TheDarkAbility issued server command: /tp TheDarkAbility Netherportal
+[04:13:22] [Server thread/INFO]: TheDarkAbility issued server command: /tp TheDarkAbility Raptor346
+[04:13:23] [Server thread/INFO]: [TheDarkAbility: Teleported TheDarkAbility to Raptor346]
+[04:25:03] [Server thread/INFO]: TheDarkAbility has made the advancement [Local Brewery]
+[04:25:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5249ms or 104 ticks behind
+[04:26:18] [Server thread/INFO]: Raptor346 fell from a high place
+[04:28:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5118ms or 102 ticks behind
+[04:28:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8362ms or 167 ticks behind
+[04:29:14] [Server thread/INFO]: TheDarkAbility lost connection: Disconnected
+[04:29:14] [Server thread/INFO]: TheDarkAbility left the game
+[04:29:28] [User Authenticator #15/INFO]: UUID of player TheDarkAbility is ff1819de-3faa-4c7d-80c6-f22668da52b6
+[04:29:30] [Server thread/INFO]: TheDarkAbility[/178.199.222.116:55022] logged in with entity id 28192 at ([world]401.4594415508319, 70.0, 45.28744844987957)
+[04:29:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10793ms or 215 ticks behind
+[04:40:32] [Server thread/INFO]: TheDarkAbility has made the advancement [Ice Bucket Challenge]
+[04:43:31] [Server thread/INFO]: Fox_in_Trap147 lost connection: Disconnected
+[04:43:31] [Server thread/INFO]: Fox_in_Trap147 left the game
+[04:46:09] [Server thread/WARN]: Raptor346 moved wrongly!
+[04:47:54] [Server thread/INFO]: Raptor346 issued server command: /save-all
+[04:47:56] [Server thread/INFO]: [Raptor346: Saved the game]
+[04:47:57] [Server thread/INFO]: Raptor346 lost connection: Disconnected
+[04:47:57] [Server thread/INFO]: Raptor346 left the game
+[04:52:44] [Server thread/INFO]: miliena lost connection: Disconnected
+[04:52:44] [Server thread/INFO]: miliena left the game
+[05:01:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6258ms or 125 ticks behind
+[05:03:54] [Server thread/INFO]: TheDarkAbility issued server command: /give TheDarkAbility minecraft:experience_bottle 100
+[05:03:54] [Server thread/INFO]: [TheDarkAbility: Gave 100 [Bottle o' Enchanting] to TheDarkAbility]
+[05:04:21] [Server thread/INFO]: TheDarkAbility issued server command: /give TheDarkAbility minecraft:experience_bottle 100
+[05:04:21] [Server thread/INFO]: [TheDarkAbility: Gave 100 [Bottle o' Enchanting] to TheDarkAbility]
+[05:06:19] [Server thread/INFO]: TheDarkAbility issued server command: /give TheDarkAbility minecraft:experience_bottle 100
+[05:06:19] [Server thread/INFO]: [TheDarkAbility: Gave 100 [Bottle o' Enchanting] to TheDarkAbility]
+[05:07:11] [Server thread/INFO]: TheDarkAbility issued server command: /give TheDarkAbility minecraft:experience_bottle 100
+[05:07:11] [Server thread/INFO]: [TheDarkAbility: Gave 100 [Bottle o' Enchanting] to TheDarkAbility]
+[05:11:03] [Server thread/INFO]: TheDarkAbility issued server command: /give @p enchanted_book{StoredEnchantments:[{id:sharpness,lvl:5},{id:fire_aspect,lvl:2},{id:looting,lvl:3},{id:unbreaking,lvl:3}]} 1
+[05:11:03] [Server thread/INFO]: [TheDarkAbility: Gave 1 [Enchanted Book] to TheDarkAbility]
+[05:23:23] [Server thread/INFO]: TheDarkAbility fell from a high place
+[05:23:39] [Server thread/INFO]: TheDarkAbility issued server command: /tp TheDarkAbility 440 21 81
+[05:23:39] [Server thread/INFO]: [TheDarkAbility: Teleported TheDarkAbility to 440.5, 21.0, 81.5]
+[05:30:03] [Server thread/INFO]: TheDarkAbility issued server command: /tp spawn
+[05:30:20] [Server thread/INFO]: TheDarkAbility issued server command: /tp TheDarkAbility 420 71 69
+[05:30:20] [Server thread/INFO]: [TheDarkAbility: Teleported TheDarkAbility to 420.5, 71.0, 69.5]
+[05:45:12] [Server thread/INFO]: TheDarkAbility was shot by Skeleton
+[06:00:01] [Server thread/INFO]: [Server] restart in 60
+[06:00:31] [Server thread/INFO]: [Server] restart in 30
+[06:00:46] [Server thread/INFO]: [Server] restart in 15
+[06:00:56] [Server thread/INFO]: [Server] restart in 10
+[06:01:01] [Server thread/INFO]: [Server] restart in 5
+[06:01:02] [Server thread/INFO]: [Server] restart in 4
+[06:01:03] [Server thread/INFO]: [Server] restart in 3
+[06:01:04] [Server thread/INFO]: [Server] restart in 2
+[06:01:05] [Server thread/INFO]: [Server] restart in 1
+[06:01:06] [Server thread/INFO]: [Server] restart
+[06:01:06] [Server thread/INFO]: Stopping the server
+[06:01:06] [Server thread/INFO]: Stopping server
+[06:01:06] [Server thread/INFO]: [SilkSpawners] Disabling SilkSpawners v6.0.0
+[06:01:06] [Server thread/INFO]: [InvSort] Disabling InvSort v1.1.0
+[06:01:06] [Server thread/INFO]: [DeadChest] Disabling DeadChest v3.2
+[06:01:06] [Server thread/INFO]: [OpenInv] Disabling OpenInv v4.1.0
+[06:01:06] [Server thread/INFO]: [Timber] Disabling Timber v1.0.7
+[06:01:06] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.1.6
+[06:01:06] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[06:01:06] [Server thread/INFO]: Saving players
+[06:01:06] [Server thread/INFO]: TheDarkAbility lost connection: Server closed
+[06:01:07] [Server thread/INFO]: TheDarkAbility left the game
+[06:01:07] [Server thread/INFO]: Saving worlds
+[06:01:07] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[06:01:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:01:07] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[06:01:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:01:07] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[06:01:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:01:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:01:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:01:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
