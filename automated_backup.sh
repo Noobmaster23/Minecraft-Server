@@ -28,7 +28,8 @@ screen -X stuff "say restart in 1
 sleep 1
 screen -X stuff "say restart
 "
-screen -X stuff "stop"
+screen -X stuff "stop
+"
 sleep 20
 screen -X stuff "git add -A
 "
