@@ -30,4 +30,15 @@ screen -X stuff "say restart
 "
 screen -X stuff "stop"
 sleep 20
-git add -A
+screen -X stuff "git add -A
+"
+screen -X stuff "git commit -a
+"
+screen -X stuff "git push
+"
+screen -X stuff "Noobmaster23
+"
+screen -X stuff "wM8aw2AR2AzY022kX
+"
+sleep 30
+screen -X stuff "sudo ./start.sh"
