@@ -209,6 +209,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2020-05-02 15:19:22 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
       "has_iron_ingot": "2020-05-01 21:16:16 +0200"
@@ -437,6 +443,7 @@
       "cooked_mutton": "2020-05-01 22:31:01 +0200",
       "sweet_berries": "2020-05-01 22:47:10 +0200",
       "cooked_beef": "2020-05-01 22:53:05 +0200",
+      "cooked_cod": "2020-05-02 15:10:35 +0200",
       "cooked_salmon": "2020-05-02 01:24:49 +0200"
     },
     "done": false
@@ -1887,6 +1894,7 @@
       "minecraft:taiga": "2020-05-01 21:05:36 +0200",
       "minecraft:deep_cold_ocean": "2020-05-02 14:09:41 +0200",
       "minecraft:taiga_hills": "2020-05-01 21:38:35 +0200",
+      "minecraft:birch_forest": "2020-05-02 15:28:14 +0200",
       "minecraft:beach": "2020-05-02 13:55:41 +0200",
       "minecraft:dark_forest": "2020-05-02 14:12:23 +0200",
       "minecraft:river": "2020-05-01 22:19:41 +0200",
