@@ -143,6 +143,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2020-05-02 13:27:06 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2020-05-01 21:06:26 +0200"
@@ -396,8 +402,10 @@
     "criteria": {
       "cooked_porkchop": "2020-05-02 00:17:56 +0200",
       "cooked_mutton": "2020-05-02 00:11:33 +0200",
+      "sweet_berries": "2020-05-02 14:42:15 +0200",
       "cooked_beef": "2020-05-01 21:25:37 +0200",
       "mutton": "2020-05-02 02:47:26 +0200",
+      "bread": "2020-05-02 14:43:38 +0200",
       "cooked_salmon": "2020-05-02 02:35:13 +0200"
     },
     "done": false
@@ -447,6 +455,12 @@
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2020-05-01 21:16:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2020-05-02 13:27:06 +0200"
     },
     "done": true
   },
@@ -792,6 +806,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_birch_planks": "2020-05-02 13:27:06 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-05-02 01:22:52 +0200"
@@ -883,7 +903,9 @@
       "minecraft:creeper": "2020-05-01 23:33:44 +0200",
       "minecraft:slime": "2020-05-02 02:46:11 +0200",
       "minecraft:phantom": "2020-05-01 23:34:41 +0200",
+      "minecraft:cave_spider": "2020-05-02 14:44:33 +0200",
       "minecraft:stray": "2020-05-02 00:32:55 +0200",
+      "minecraft:enderman": "2020-05-02 13:22:52 +0200",
       "minecraft:zombie": "2020-05-01 23:13:52 +0200"
     },
     "done": false
@@ -978,6 +1000,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2020-05-02 13:27:06 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/slime_block": {
     "criteria": {
       "has_slime_ball": "2020-05-02 02:46:12 +0200"
@@ -1029,6 +1057,12 @@
   "minecraft:recipes/decorations/blue_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-05-02 01:22:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2020-05-02 13:27:06 +0200"
     },
     "done": true
   },
@@ -1146,6 +1180,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_blue_flower": "2020-05-02 14:36:06 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/leather": {
     "criteria": {
       "has_rabbit_hide": "2020-05-01 23:06:10 +0200"
@@ -1155,6 +1195,12 @@
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
       "has_iron_ingot": "2020-05-01 21:16:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2020-05-02 13:27:06 +0200"
     },
     "done": true
   },
@@ -1341,6 +1387,12 @@
   "minecraft:recipes/food/cooked_salmon": {
     "criteria": {
       "has_salmon": "2020-05-02 00:11:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2020-05-02 13:27:06 +0200"
     },
     "done": true
   },
@@ -1636,6 +1688,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2020-05-02 13:27:06 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_carpet": {
     "criteria": {
       "has_brown_wool": "2020-05-02 02:14:48 +0200"
@@ -1699,6 +1757,12 @@
   "minecraft:husbandry/breed_an_animal": {
     "criteria": {
       "bred": "2020-05-02 01:41:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2020-05-02 13:27:06 +0200"
     },
     "done": true
   },
