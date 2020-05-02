@@ -394,6 +394,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2020-05-02 02:14:48 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2020-05-01 21:06:50 +0200"
@@ -924,6 +930,12 @@
   "minecraft:recipes/redstone/dark_oak_fence_gate": {
     "criteria": {
       "has_planks": "2020-05-02 01:03:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2020-05-02 02:14:48 +0200"
     },
     "done": true
   },
@@ -1459,9 +1471,11 @@
       "minecraft:taiga_hills": "2020-05-01 22:54:45 +0200",
       "minecraft:frozen_river": "2020-05-02 00:25:12 +0200",
       "minecraft:snowy_beach": "2020-05-02 00:21:46 +0200",
+      "minecraft:deep_lukewarm_ocean": "2020-05-02 02:16:58 +0200",
       "minecraft:beach": "2020-05-01 22:18:26 +0200",
       "minecraft:dark_forest": "2020-05-02 00:58:41 +0200",
       "minecraft:river": "2020-05-01 22:22:09 +0200",
+      "minecraft:lukewarm_ocean": "2020-05-02 02:17:19 +0200",
       "minecraft:snowy_taiga": "2020-05-02 00:21:39 +0200",
       "minecraft:wooded_mountains": "2020-05-02 00:19:59 +0200",
       "minecraft:wooded_hills": "2020-05-02 00:34:53 +0200",
@@ -1559,6 +1573,12 @@
   "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2020-05-01 23:42:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2020-05-02 02:14:48 +0200"
     },
     "done": true
   },

@@ -30,15 +30,22 @@ screen -X stuff "say restart
 "
 screen -X stuff "stop
 "
-sleep 20
+sleep 30
 screen -X stuff "git add -A
 "
 screen -X stuff "git commit -a
 "
+sleep 30
+screen -X stuff "backup"
+screen -X stuff "^s"
+screen -X stuff "^x"
+sleep 5
 screen -X stuff "git push
 "
+sleep 5
 screen -X stuff "Noobmaster23
 "
+sleep 5
 screen -X stuff "wM8aw2AR2AzY022kX
 "
 sleep 30
