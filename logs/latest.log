@@ -1,650 +1,223 @@
-[15:53:53] [Server thread/INFO]: Starting minecraft server version 1.15.2
-[15:53:53] [Server thread/INFO]: Loading properties
-[15:53:54] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-2040c4c-77fd87e (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
-[15:53:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:53:54] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:53:54] [Server thread/INFO]: Debug logging is disabled
-[15:53:55] [Server thread/INFO]: Default game type: SURVIVAL
-[15:53:55] [Server thread/INFO]: Generating keypair
-[15:53:56] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:53:56] [Server thread/INFO]: Using default channel type
-[15:53:58] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[15:54:25] [Server thread/WARN]: Legacy plugin Ping v1.5.2 does not specify an api-version.
-[15:54:25] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.1.6
-[15:54:25] [Server thread/INFO]: [Timber] Loading Timber v1.0.7
-[15:54:25] [Server thread/INFO]: [Ping] Loading Ping v1.5.2
-[15:54:25] [Server thread/INFO]: [OpenInv] Loading OpenInv v4.1.0
-[15:54:25] [Server thread/INFO]: [DeadChest] Loading DeadChest v3.2
-[15:54:25] [Server thread/INFO]: [InvSort] Loading InvSort v1.1.0
-[15:54:25] [Server thread/INFO]: [SilkSpawners] Loading SilkSpawners v6.0.0
-[15:54:25] [Server thread/INFO]: Preparing level "world"
-[15:54:27] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[15:54:48] [Server thread/INFO]: Loaded 6 recipes
-[15:54:53] [Server thread/INFO]: -------- World Settings For [world] --------
-[15:54:53] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:54:53] [Server thread/INFO]: Mob Spawn Range: 6
-[15:54:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:54:53] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:54:53] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:54:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:54:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:54:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:54:53] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:54:53] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:54:53] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:54:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:54:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:54:53] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:54:53] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:54:53] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:54:53] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:54:53] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:54:53] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[15:54:53] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:54:53] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:54:53] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[15:54:53] [Server thread/INFO]: Max TNT Explosions: 100
-[15:54:53] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:54:53] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:54:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:54:53] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:54:53] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:54:53] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:54:53] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:54:53] [Server thread/INFO]: View Distance: 10
-[15:54:54] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[15:54:54] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:54:54] [Server thread/INFO]: Mob Spawn Range: 6
-[15:54:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[15:54:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:54:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:54:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[15:54:54] [Server thread/INFO]: Max TNT Explosions: 100
-[15:54:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:54:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:54:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:54:54] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:54:54] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:54:54] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:54:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:54:54] [Server thread/INFO]: View Distance: 10
-[15:54:54] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[15:54:54] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:54:54] [Server thread/INFO]: Mob Spawn Range: 6
-[15:54:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:54:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[15:54:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:54:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:54:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[15:54:54] [Server thread/INFO]: Max TNT Explosions: 100
-[15:54:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:54:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:54:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:54:54] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:54:54] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:54:54] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:54:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:54:54] [Server thread/INFO]: View Distance: 10
-[15:54:54] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[15:54:59] [Server thread/INFO]: Preparing spawn area: 0%
-[15:54:59] [Server thread/INFO]: Preparing spawn area: 0%
-[15:54:59] [Server thread/INFO]: Preparing spawn area: 0%
-[15:54:59] [Server thread/INFO]: Preparing spawn area: 0%
-[15:54:59] [Server thread/INFO]: Preparing spawn area: 0%
-[15:54:59] [Server thread/INFO]: Preparing spawn area: 0%
-[15:54:59] [Server thread/INFO]: Preparing spawn area: 0%
-[15:54:59] [Server thread/INFO]: Preparing spawn area: 0%
-[15:54:59] [Server thread/INFO]: Preparing spawn area: 0%
-[15:54:59] [Server thread/INFO]: Preparing spawn area: 0%
-[15:54:59] [Server thread/INFO]: Preparing spawn area: 0%
-[15:55:00] [Server thread/INFO]: Preparing spawn area: 0%
-[15:55:00] [Server thread/INFO]: Preparing spawn area: 0%
-[15:55:01] [Server thread/INFO]: Preparing spawn area: 1%
-[15:55:01] [Server thread/INFO]: Preparing spawn area: 29%
-[15:55:02] [Server thread/INFO]: Preparing spawn area: 36%
-[15:55:02] [Server thread/INFO]: Preparing spawn area: 83%
-[15:55:03] [Server thread/INFO]: Time elapsed: 8646 ms
-[15:55:03] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[15:55:06] [Server thread/INFO]: Preparing spawn area: 0%
-[15:55:06] [Server thread/INFO]: Preparing spawn area: 0%
-[15:55:06] [Server thread/INFO]: Preparing spawn area: 0%
-[15:55:06] [Server thread/INFO]: Preparing spawn area: 0%
-[15:55:06] [Server thread/INFO]: Preparing spawn area: 0%
-[15:55:06] [Server thread/INFO]: Preparing spawn area: 0%
-[15:55:06] [Server thread/INFO]: Preparing spawn area: 0%
-[15:55:06] [Server thread/INFO]: Preparing spawn area: 0%
-[15:55:07] [Server thread/INFO]: Preparing spawn area: 0%
-[15:55:08] [Server thread/INFO]: Preparing spawn area: 83%
-[15:55:08] [Server-Worker-2/INFO]: Preparing spawn area: 89%
-[15:55:10] [Server-Worker-3/INFO]: Preparing spawn area: 97%
-[15:55:10] [Server-Worker-2/INFO]: Preparing spawn area: 97%
-[15:55:11] [Server-Worker-3/INFO]: Preparing spawn area: 97%
-[15:55:11] [Server-Worker-3/INFO]: Preparing spawn area: 97%
-[15:55:11] [Server-Worker-3/INFO]: Preparing spawn area: 97%
-[15:55:11] [Server-Worker-1/INFO]: Preparing spawn area: 97%
-[15:55:11] [Server-Worker-1/INFO]: Preparing spawn area: 97%
-[15:55:12] [Server-Worker-2/INFO]: Preparing spawn area: 97%
-[15:55:12] [Server-Worker-2/INFO]: Preparing spawn area: 97%
-[15:55:13] [Server-Worker-3/INFO]: Preparing spawn area: 97%
-[15:55:13] [Server-Worker-1/INFO]: Preparing spawn area: 98%
-[15:55:14] [Server-Worker-2/INFO]: Preparing spawn area: 98%
-[15:55:14] [Server-Worker-2/INFO]: Preparing spawn area: 99%
-[15:55:15] [Server thread/INFO]: Time elapsed: 11736 ms
-[15:55:15] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[15:55:16] [Server thread/INFO]: Preparing spawn area: 0%
-[15:55:16] [Server thread/INFO]: Preparing spawn area: 0%
-[15:55:16] [Server thread/INFO]: Preparing spawn area: 0%
-[15:55:16] [Server-Worker-2/INFO]: Preparing spawn area: 83%
-[15:55:17] [Server-Worker-2/INFO]: Preparing spawn area: 83%
-[15:55:17] [Server-Worker-1/INFO]: Preparing spawn area: 83%
-[15:55:18] [Server-Worker-2/INFO]: Preparing spawn area: 83%
-[15:55:18] [Server-Worker-1/INFO]: Preparing spawn area: 83%
-[15:55:19] [Server-Worker-3/INFO]: Preparing spawn area: 84%
-[15:55:19] [Server-Worker-2/INFO]: Preparing spawn area: 93%
-[15:55:20] [Server thread/INFO]: Time elapsed: 4938 ms
-[15:55:20] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.1.6
-[15:55:20] [Server thread/INFO]: [ClearLag] Loading modules...
-[15:55:20] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[15:55:20] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[15:55:20] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[15:55:20] [Server thread/INFO]: [Timber] Enabling Timber v1.0.7
-[15:55:20] [Server thread/INFO]: Timber Log Materials: [BIRCH_LOG, DARK_OAK_LOG, OAK_LOG, SPRUCE_LOG, JUNGLE_LOG, ACACIA_LOG]
-[15:55:20] [Server thread/INFO]: Timber Axe Materials: [DIAMOND_AXE, IRON_AXE, GOLDEN_AXE, STONE_AXE, WOODEN_AXE]
-[15:55:20] [Thread-11/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.15]...
-[15:55:20] [Server thread/INFO]: [Ping] Enabling Ping v1.5.2
-[15:55:22] [Server thread/INFO]: [OpenInv] Enabling OpenInv v4.1.0
-[15:55:22] [Thread-11/INFO]: [ClearLag] No updates found!
-[15:55:22] [Server thread/INFO]: [DeadChest] Enabling DeadChest v3.2
-[15:55:22] [Server thread/INFO]: [InvSort] Enabling InvSort v1.1.0
-[15:55:22] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v6.0.0
-[15:55:26] [Server thread/INFO]: [SilkSpawners] WorldGuard was not found and support is disabled
-[15:55:26] [Server thread/INFO]: [SilkSpawners] Loading support for v1_15_R1
-[15:55:26] [Server thread/INFO]: [SilkSpawners] AutoUpdater is enabled.
-[15:55:26] [Server thread/INFO]: [SilkSpawners] Result from AutoUpdater is: NO_UPDATE
-[15:55:26] [Server thread/INFO]: [SilkSpawners] BarAPI is disabled due to config setting.
-[15:55:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:55:26] [Server thread/INFO]: Done (61.120s)! For help, type "help"
-[15:55:28] [Server thread/INFO]: com.mojang.authlib.GameProfile@4a0b94[id=<null>,name=Raptor346,properties={},legacy=false] (/192.168.0.1:64109) lost connection: Disconnected
-[15:55:36] [User Authenticator #1/INFO]: UUID of player Raptor346 is 2bf10171-64f9-4147-a5e8-12f7a83f833c
-[15:55:38] [Server thread/INFO]: Raptor346[/192.168.0.1:64150] logged in with entity id 303 at ([world]364.30000001192093, 11.0, 337.3467867442057)
-[15:55:41] [User Authenticator #2/INFO]: UUID of player tixfun is 7d14083d-9e14-458a-8c54-6d558d72c7d9
-[15:55:41] [Server thread/INFO]: tixfun[/80.218.119.217:61093] logged in with entity id 356 at ([world]231.75024706000337, 72.0, 122.43527456910084)
-[15:55:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5055ms or 101 ticks behind
-[15:56:47] [Server thread/INFO]: Raptor346 issued server command: /ping
-[15:56:47] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Unhandled exception executing command 'ping' in plugin Ping v1.5.2
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:723) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnection.handleCommand(PlayerConnection.java:1658) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1498) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PacketPlayInChat.a(PacketPlayInChat.java:47) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:19) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.TickTask.run(SourceFile:18) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeTask(SourceFile:144) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeNext(SourceFile:118) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.ba(MinecraftServer.java:918) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.executeNext(MinecraftServer.java:911) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeAll(SourceFile:103) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.sleepForTick(MinecraftServer.java:894) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:828) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/v1_13_R2/entity/CraftPlayer
-	at net.mcplayhd.ping.Ping.getPing(Ping.java:90) ~[?:?]
-	at net.mcplayhd.ping.commands.CMDping.onCommand(CMDping.java:39) ~[?:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	... 17 more
-Caused by: java.lang.ClassNotFoundException: org.bukkit.craftbukkit.v1_13_R2.entity.CraftPlayer
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:96) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:589) ~[?:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[?:?]
-	at net.mcplayhd.ping.Ping.getPing(Ping.java:90) ~[?:?]
-	at net.mcplayhd.ping.commands.CMDping.onCommand(CMDping.java:39) ~[?:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	... 17 more
-[15:56:50] [Server thread/INFO]: Raptor346 issued server command: /ping:ping
-[15:56:50] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Unhandled exception executing command 'ping:ping' in plugin Ping v1.5.2
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:723) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnection.handleCommand(PlayerConnection.java:1658) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1498) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PacketPlayInChat.a(PacketPlayInChat.java:47) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:19) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.TickTask.run(SourceFile:18) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeTask(SourceFile:144) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeNext(SourceFile:118) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.ba(MinecraftServer.java:918) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.executeNext(MinecraftServer.java:911) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.awaitTasks(SourceFile:127) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.sleepForTick(MinecraftServer.java:895) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:828) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/v1_13_R2/entity/CraftPlayer
-	at net.mcplayhd.ping.Ping.getPing(Ping.java:90) ~[?:?]
-	at net.mcplayhd.ping.commands.CMDping.onCommand(CMDping.java:39) ~[?:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	... 17 more
-[15:56:51] [Server thread/INFO]: Raptor346 issued server command: /ping:ping
-[15:56:51] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Unhandled exception executing command 'ping:ping' in plugin Ping v1.5.2
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:723) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnection.handleCommand(PlayerConnection.java:1658) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1498) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PacketPlayInChat.a(PacketPlayInChat.java:47) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:19) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.TickTask.run(SourceFile:18) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeTask(SourceFile:144) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeNext(SourceFile:118) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.ba(MinecraftServer.java:918) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.executeNext(MinecraftServer.java:911) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.awaitTasks(SourceFile:127) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.sleepForTick(MinecraftServer.java:895) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:828) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/v1_13_R2/entity/CraftPlayer
-	at net.mcplayhd.ping.Ping.getPing(Ping.java:90) ~[?:?]
-	at net.mcplayhd.ping.commands.CMDping.onCommand(CMDping.java:39) ~[?:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	... 17 more
-[15:56:54] [Server thread/INFO]: Raptor346 issued server command: /ping:ping
-[15:56:54] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Unhandled exception executing command 'ping:ping' in plugin Ping v1.5.2
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:723) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnection.handleCommand(PlayerConnection.java:1658) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1498) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PacketPlayInChat.a(PacketPlayInChat.java:47) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:19) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.TickTask.run(SourceFile:18) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeTask(SourceFile:144) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeNext(SourceFile:118) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.ba(MinecraftServer.java:918) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.executeNext(MinecraftServer.java:911) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.awaitTasks(SourceFile:127) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.sleepForTick(MinecraftServer.java:895) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:828) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/v1_13_R2/entity/CraftPlayer
-	at net.mcplayhd.ping.Ping.getPing(Ping.java:90) ~[?:?]
-	at net.mcplayhd.ping.commands.CMDping.onCommand(CMDping.java:39) ~[?:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	... 17 more
-[15:56:54] [Server thread/INFO]: Raptor346 issued server command: /ping:ping
-[15:56:54] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Unhandled exception executing command 'ping:ping' in plugin Ping v1.5.2
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:723) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnection.handleCommand(PlayerConnection.java:1658) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1498) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PacketPlayInChat.a(PacketPlayInChat.java:47) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:19) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.TickTask.run(SourceFile:18) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeTask(SourceFile:144) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeNext(SourceFile:118) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.ba(MinecraftServer.java:918) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.executeNext(MinecraftServer.java:911) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.awaitTasks(SourceFile:127) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.sleepForTick(MinecraftServer.java:895) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:828) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/v1_13_R2/entity/CraftPlayer
-	at net.mcplayhd.ping.Ping.getPing(Ping.java:90) ~[?:?]
-	at net.mcplayhd.ping.commands.CMDping.onCommand(CMDping.java:39) ~[?:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	... 17 more
-[15:56:55] [Server thread/INFO]: Raptor346 issued server command: /ping:ping
-[15:56:55] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Unhandled exception executing command 'ping:ping' in plugin Ping v1.5.2
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:723) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnection.handleCommand(PlayerConnection.java:1658) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1498) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PacketPlayInChat.a(PacketPlayInChat.java:47) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:19) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.TickTask.run(SourceFile:18) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeTask(SourceFile:144) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeNext(SourceFile:118) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.ba(MinecraftServer.java:918) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.executeNext(MinecraftServer.java:911) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.awaitTasks(SourceFile:127) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.sleepForTick(MinecraftServer.java:895) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:828) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/v1_13_R2/entity/CraftPlayer
-	at net.mcplayhd.ping.Ping.getPing(Ping.java:90) ~[?:?]
-	at net.mcplayhd.ping.commands.CMDping.onCommand(CMDping.java:39) ~[?:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	... 17 more
-[15:57:07] [User Authenticator #3/INFO]: UUID of player tixfun is 7d14083d-9e14-458a-8c54-6d558d72c7d9
-[15:57:07] [Server thread/INFO]: tixfun lost connection: You logged in from another location
-[15:57:08] [Server thread/INFO]: tixfun left the game
-[15:57:08] [Server thread/INFO]: tixfun[/80.218.119.217:61138] logged in with entity id 771 at ([world]228.4834407533741, 72.02847363537255, 122.33276819123026)
-[15:57:18] [Server thread/INFO]: tixfun was slain by Zombie
-[15:57:30] [User Authenticator #4/INFO]: UUID of player Fox_in_Trap147 is 6e9bf9ca-9913-4af9-bcbd-fd5148f36fe9
-[15:57:33] [Server thread/INFO]: Fox_in_Trap147[/178.194.152.169:58494] logged in with entity id 840 at ([world]407.41984013753597, 71.0, 45.494247317219795)
-[15:57:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5818ms or 116 ticks behind
-[15:57:39] [Server thread/INFO]: Fox_in_Trap147 issued server command: /ping
-[15:57:39] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Unhandled exception executing command 'ping' in plugin Ping v1.5.2
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:723) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnection.handleCommand(PlayerConnection.java:1658) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1498) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PacketPlayInChat.a(PacketPlayInChat.java:47) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:19) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.TickTask.run(SourceFile:18) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeTask(SourceFile:144) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeNext(SourceFile:118) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.ba(MinecraftServer.java:918) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.executeNext(MinecraftServer.java:911) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeAll(SourceFile:103) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.sleepForTick(MinecraftServer.java:894) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:828) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/v1_13_R2/entity/CraftPlayer
-	at net.mcplayhd.ping.Ping.getPing(Ping.java:90) ~[?:?]
-	at net.mcplayhd.ping.commands.CMDping.onCommand(CMDping.java:39) ~[?:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	... 17 more
-[15:57:42] [Server thread/INFO]: tixfun lost connection: Disconnected
-[15:57:42] [Server thread/INFO]: tixfun left the game
-[15:57:43] [Server thread/INFO]: Fox_in_Trap147 issued server command: /ping:ping
-[15:57:43] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Unhandled exception executing command 'ping:ping' in plugin Ping v1.5.2
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:723) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnection.handleCommand(PlayerConnection.java:1658) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1498) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PacketPlayInChat.a(PacketPlayInChat.java:47) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:19) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.TickTask.run(SourceFile:18) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeTask(SourceFile:144) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeNext(SourceFile:118) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.ba(MinecraftServer.java:918) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.executeNext(MinecraftServer.java:911) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeAll(SourceFile:103) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.sleepForTick(MinecraftServer.java:894) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:828) [spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/v1_13_R2/entity/CraftPlayer
-	at net.mcplayhd.ping.Ping.getPing(Ping.java:90) ~[?:?]
-	at net.mcplayhd.ping.commands.CMDping.onCommand(CMDping.java:39) ~[?:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[spigot-1.15.2.jar:git-Spigot-2040c4c-77fd87e]
-	... 17 more
-[15:57:47] [Server thread/INFO]: Raptor346 lost connection: Disconnected
-[15:57:47] [Server thread/INFO]: Raptor346 left the game
-[15:57:48] [Async Chat Thread - #0/INFO]: <Fox_in_Trap147> ok[m
-[15:57:53] [User Authenticator #5/INFO]: UUID of player Raptor346 is 2bf10171-64f9-4147-a5e8-12f7a83f833c
-[15:57:55] [Server thread/INFO]: Raptor346[/192.168.0.164:64183] logged in with entity id 1064 at ([world]364.30000001192093, 11.0, 356.52463295146435)
-[16:00:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8165ms or 163 ticks behind
-[16:10:15] [Server thread/INFO]: Fox_in_Trap147 has made the advancement [Enchanter]
-[16:17:23] [Server thread/INFO]: Fox_in_Trap147 has made the advancement [We Need to Go Deeper]
-[16:20:49] [Server thread/WARN]: Fox_in_Trap147 moved too quickly! 15.55129541324581,-1.426399121468208,1.8794587477514781
-[16:23:51] [Server thread/INFO]: Raptor346 lost connection: Disconnected
-[16:23:52] [Server thread/INFO]: Raptor346 left the game
-[16:28:40] [Server thread/INFO]: Fox_in_Trap147 has completed the challenge [Return to Sender]
-[16:36:45] [User Authenticator #6/INFO]: UUID of player Raptor346 is 2bf10171-64f9-4147-a5e8-12f7a83f833c
-[16:36:48] [Server thread/INFO]: Raptor346[/192.168.0.1:50464] logged in with entity id 8794 at ([world]478.24694360956613, 10.0, 392.1268684610103)
-[16:37:03] [Server thread/WARN]: Fox_in_Trap147 moved wrongly!
-[16:37:59] [Server thread/INFO]: Fox_in_Trap147 lost connection: Disconnected
-[16:37:59] [Server thread/INFO]: Fox_in_Trap147 left the game
-[16:38:01] [User Authenticator #7/INFO]: UUID of player Fox_in_Trap147 is 6e9bf9ca-9913-4af9-bcbd-fd5148f36fe9
-[16:38:02] [Server thread/INFO]: Fox_in_Trap147[/178.194.152.169:58679] logged in with entity id 9178 at ([world]409.278609911744, 69.0, 48.488817228782914)
-[16:38:40] [Server thread/INFO]: Raptor346 issued server command: /inv
-[16:38:43] [Server thread/INFO]: Raptor346 issued server command: /inv Fox_in_Trap147
-[16:47:35] [Server thread/INFO]: Fox_in_Trap147 fell from a high place
-[16:51:29] [User Authenticator #8/INFO]: UUID of player TheDarkAbility is ff1819de-3faa-4c7d-80c6-f22668da52b6
-[16:51:37] [Server thread/INFO]: TheDarkAbility[/178.199.222.116:50798] logged in with entity id 12500 at ([world]384.86267083889163, 79.0, 65.30000001192093)
-[16:51:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8315ms or 166 ticks behind
-[16:55:51] [Server thread/INFO]: Raptor346 lost connection: Disconnected
-[16:55:51] [Server thread/INFO]: Raptor346 left the game
-[16:57:48] [Server thread/INFO]: TheDarkAbility issued server command: /locate Desert_Pyramid
-[16:57:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9174ms or 183 ticks behind
-[16:57:58] [Server thread/INFO]: TheDarkAbility issued server command: /locate Desert_Pyramid
-[17:00:20] [User Authenticator #9/INFO]: UUID of player Raptor346 is 2bf10171-64f9-4147-a5e8-12f7a83f833c
-[17:00:23] [Server thread/INFO]: Raptor346[/192.168.0.1:60796] logged in with entity id 14255 at ([world]516.565450452904, 11.0, 394.69999998807907)
-[17:00:26] [Async Chat Thread - #1/INFO]: <TheDarkAbility> 372 65 302[m
-[17:01:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5416ms or 108 ticks behind
-[17:01:09] [Server thread/WARN]: TheDarkAbility moved too quickly! -1.6774075318626842,-3.0013359791121417,9.486298010932217
-[17:02:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5013ms or 100 ticks behind
-[17:04:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5055ms or 101 ticks behind
-[17:04:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6276ms or 125 ticks behind
-[17:06:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8675ms or 173 ticks behind
-[17:07:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8048ms or 160 ticks behind
-[17:07:51] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! 1.6832540311819457,0.0,20.31001294089367
-[17:07:51] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! 1.8035837983838405,0.0,20.689674705206357
-[17:07:53] [Server thread/INFO]: [Server] help
-[17:07:57] [Server thread/INFO]: [Server] I'm dying
-[17:08:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 51628ms or 1032 ticks behind
-[17:08:51] [Server thread/WARN]: TheDarkAbility moved wrongly!
-[17:12:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9791ms or 195 ticks behind
-[17:12:43] [Server thread/WARN]: Raptor346 moved too quickly! 8.455677467693874,0.0,-5.3567102104041595
-[17:15:25] [Async Chat Thread - #2/INFO]: <TheDarkAbility> 372 65 302[m
-[17:15:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5062ms or 101 ticks behind
-[17:16:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10534ms or 210 ticks behind
-[17:17:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12361ms or 247 ticks behind
-[17:18:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
-[17:18:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13165ms or 263 ticks behind
-[17:20:27] [Server thread/INFO]: TheDarkAbility lost connection: Disconnected
-[17:20:27] [Server thread/INFO]: TheDarkAbility left the game
-[17:20:48] [Server thread/INFO]: com.mojang.authlib.GameProfile@bf8d18[id=<null>,name=TheDarkAbility,properties={},legacy=false] (/178.199.222.116:50914) lost connection: Disconnected
-[17:20:50] [Async Chat Thread - #3/INFO]: <Raptor346> gn[m
-[17:21:00] [User Authenticator #11/INFO]: UUID of player TheDarkAbility is ff1819de-3faa-4c7d-80c6-f22668da52b6
-[17:21:05] [Server thread/INFO]: TheDarkAbility[/178.199.222.116:50916] logged in with entity id 22998 at ([world]-572.2969543353449, 82.0, 1120.603492686155)
-[17:21:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7771ms or 155 ticks behind
-[17:21:43] [Async Chat Thread - #3/INFO]: <TheDarkAbility> -555 76 1116 Blumenwald (2Bienenstöcke)[m
-[17:21:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6575ms or 131 ticks behind
-[17:22:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5217ms or 104 ticks behind
-[17:22:25] [Server thread/INFO]: TheDarkAbility issued server command: /locate Desert_Pyramid
-[17:22:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6121ms or 122 ticks behind
-[17:23:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
-[17:24:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7679ms or 153 ticks behind
-[17:26:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
-[17:27:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9315ms or 186 ticks behind
-[17:27:09] [Async Chat Thread - #4/INFO]: <TheDarkAbility> -1029 68 1899[m
-[17:29:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5007ms or 100 ticks behind
-[17:29:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7864ms or 157 ticks behind
-[17:30:15] [Async Chat Thread - #5/INFO]: <TheDarkAbility> -1379 77 2016[m
-[17:30:18] [Async Chat Thread - #5/INFO]: <TheDarkAbility> Llamas[m
-[17:30:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5023ms or 100 ticks behind
-[17:32:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5003ms or 100 ticks behind
-[17:33:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5042ms or 100 ticks behind
-[17:34:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8738ms or 174 ticks behind
-[17:35:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20337ms or 406 ticks behind
-[17:35:38] [Server thread/WARN]: Fox_in_Trap147 moved too quickly! -11.961268642676316,1.0,11.239427547696529
-[17:36:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 27031ms or 540 ticks behind
-[17:37:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5008ms or 100 ticks behind
-[17:38:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5098ms or 101 ticks behind
-[17:41:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5040ms or 100 ticks behind
-[17:44:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5143ms or 102 ticks behind
-[17:45:34] [Server thread/WARN]: TheDarkAbility moved wrongly!
-[17:46:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9270ms or 185 ticks behind
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -17.952270946721,0.0,9.202632232036649
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -18.260584595809178,0.0,9.45576067984598
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -18.567978919725647,0.0,9.710133185923723
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -18.8745178275135,0.0,9.96565687527027
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -19.18026390742989,0.0,10.222242404815006
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -19.485273466552826,0.0,10.479809347169976
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -19.789599716311386,0.0,10.738282436175723
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -20.093293085775713,0.0,10.997591063817026
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -20.395931111212576,0.0,11.2581844318388
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -20.69668434996538,0.0,11.520907657753241
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -20.994874364716907,0.0,11.786394463913894
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -21.289953927222996,0.0,12.055109301596303
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -21.581495281347543,0.0,12.327375860037591
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -21.869172157154026,0.0,12.603406606323688
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -22.15274800178031,0.0,12.88332324877274
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -22.432064439142778,0.0,13.16717434559132
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -22.70646273591956,0.0,13.455356961575035
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -22.974850252778197,0.0,13.748496973955525
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -23.235750164255023,0.0,14.04733058902616
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -23.48735312078543,0.0,14.352585018769332
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -23.72755623154808,0.0,14.664872613467878
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -23.95401891751999,0.0,14.984587925586766
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.16421615759282,0.0,15.311819481736848
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.35551723312892,0.0,15.646271465230484
-[17:46:15] [Server thread/WARN]: Fox_in_Trap147 moved too quickly! 13.46073263059742,-2.5009966402674735,0.4895251285092872
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.525963003437028,0.0,15.987240854493166
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.674182436314368,0.0,16.333775743526985
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.799317980065553,0.0,16.68479379847463
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.900950275327432,0.0,17.03916970190653
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.979023211490585,0.0,17.39579682437534
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -25.033769188484257,0.0,17.753626251853348
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -25.065651166542466,0.0,18.111693398138414
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -25.075313441865546,0.0,18.46913440485423
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -25.06353755705959,0.0,18.825193562628556
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -25.031786159317562,0.0,19.17959393984006
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.982040530203903,0.0,19.532491270618948
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.916682335669066,0.0,19.88439222091438
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.838408200527738,0.0,20.2360530112137
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.75017254717659,0.0,20.588372728213244
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.655141885527428,0.0,20.942283685663824
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.55665628910083,0.0,21.298645265025925
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.458184769536274,0.0,21.658141927309316
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.36328560306265,0.0,22.021193081485762
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.275546024833147,0.0,22.387870949058197
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.198512470124115,0.0,22.757834334898916
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.135627451484652,0.0,23.13027870303631
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.08947010580141,0.0,23.504092403087725
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.061868836626218,0.0,23.878016947305696
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.054018881913635,0.0,24.250760898797353
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.0665930572668,0.0,24.621077314619015
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.099251367742454,0.0,24.988193102709374
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.15089534434628,0.0,25.351836898830015
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.219858511185976,0.0,25.712199354386485
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.30403963658364,0.0,26.069856603539165
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.400991539858296,0.0,26.425674963846177
-[17:46:15] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -24.50798753188019,0.0,26.78070171986724
-[17:46:15] [Server thread/WARN]: Boat moved wrongly!
-[17:46:15] [Server thread/WARN]: Boat moved wrongly!
-[17:46:15] [Server thread/WARN]: Boat moved wrongly!
-[17:46:16] [Server thread/WARN]: Boat (vehicle of TheDarkAbility) moved too quickly! -7.331458978014325,0.0,19.263265904290165
-[17:46:16] [Server thread/WARN]: Boat moved wrongly!
-[17:46:16] [Server thread/WARN]: Boat moved wrongly!
-[17:46:16] [Server thread/WARN]: Boat moved wrongly!
-[17:46:16] [Server thread/WARN]: Boat moved wrongly!
-[17:46:16] [Server thread/WARN]: Boat moved wrongly!
-[17:46:16] [Server thread/WARN]: Boat moved wrongly!
-[17:46:16] [Server thread/WARN]: Boat moved wrongly!
-[17:46:16] [Server thread/WARN]: Boat moved wrongly!
-[17:46:16] [Server thread/WARN]: Boat moved wrongly!
-[17:46:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5734ms or 114 ticks behind
-[17:47:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8308ms or 166 ticks behind
-[17:48:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5019ms or 100 ticks behind
-[17:49:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16438ms or 328 ticks behind
-[17:49:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11397ms or 227 ticks behind
-[17:50:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7004ms or 140 ticks behind
-[17:52:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6498ms or 129 ticks behind
-[17:52:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
-[17:53:21] [Server thread/INFO]: Fox_in_Trap147 has made the advancement [Into Fire]
-[17:53:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5026ms or 100 ticks behind
-[17:54:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13322ms or 266 ticks behind
-[17:54:33] [Server thread/INFO]: TheDarkAbility issued server command: /locate Mansion
-[17:54:44] [Server thread/WARN]: Fox_in_Trap147 moved too quickly! 8.86176858654784,-0.001335979112141672,-5.03820843748413
-[17:55:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 46398ms or 927 ticks behind
-[17:55:33] [Server thread/INFO]: Raptor346 lost connection: Disconnected
-[17:55:33] [Server thread/INFO]: Raptor346 left the game
-[17:55:36] [Server thread/INFO]: TheDarkAbility issued server command: /tp TheDarkAbility Fox_in_Trap147
-[17:55:36] [Server thread/INFO]: [TheDarkAbility: Teleported TheDarkAbility to Fox_in_Trap147]
-[17:55:40] [User Authenticator #12/INFO]: UUID of player Raptor346 is 2bf10171-64f9-4147-a5e8-12f7a83f833c
-[17:55:43] [Server thread/INFO]: Raptor346[/192.168.0.164:58662] logged in with entity id 36498 at ([world]368.0882726786474, 73.0, 85.57663384985686)
-[17:58:10] [Async Chat Thread - #6/INFO]: <Raptor346> pän[m
-[17:58:17] [Async Chat Thread - #6/INFO]: <Fox_in_Trap147> frying pän[m
-[17:59:15] [Async Chat Thread - #6/INFO]: <TheDarkAbility> Pän[m
-[17:59:18] [Async Chat Thread - #6/INFO]: <TheDarkAbility> Pänn arsch[m
-[17:59:21] [Async Chat Thread - #6/INFO]: <Fox_in_Trap147> ass[m
-[17:59:27] [Async Chat Thread - #6/INFO]: <TheDarkAbility> dickbutt[m
-[18:00:01] [Server thread/INFO]: [Server] restart in 60
-[18:00:31] [Server thread/INFO]: [Server] restart in 30
-[18:00:46] [Server thread/INFO]: [Server] restart in 15
-[18:00:56] [Server thread/INFO]: [Server] restart in 10
-[18:01:01] [Server thread/INFO]: [Server] restart in 5
-[18:01:02] [Server thread/INFO]: [Server] restart in 4
-[18:01:03] [Server thread/INFO]: [Server] restart in 3
-[18:01:04] [Server thread/INFO]: [Server] restart in 2
-[18:01:05] [Server thread/INFO]: [Server] restart in 1
-[18:01:06] [Server thread/INFO]: [Server] restart
-[18:01:06] [Server thread/INFO]: Stopping the server
-[18:01:06] [Server thread/INFO]: Stopping server
-[18:01:06] [Server thread/INFO]: [SilkSpawners] Disabling SilkSpawners v6.0.0
-[18:01:06] [Server thread/INFO]: [InvSort] Disabling InvSort v1.1.0
-[18:01:06] [Server thread/INFO]: [DeadChest] Disabling DeadChest v3.2
-[18:01:06] [Server thread/INFO]: [OpenInv] Disabling OpenInv v4.1.0
-[18:01:06] [Server thread/INFO]: [Ping] Disabling Ping v1.5.2
-[18:01:06] [Server thread/INFO]: [Timber] Disabling Timber v1.0.7
-[18:01:06] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.1.6
-[18:01:06] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[18:01:06] [Server thread/INFO]: Saving players
-[18:01:07] [Server thread/INFO]: Fox_in_Trap147 lost connection: Server closed
-[18:01:07] [Server thread/INFO]: Fox_in_Trap147 left the game
-[18:01:07] [Server thread/INFO]: TheDarkAbility lost connection: Server closed
-[18:01:07] [Server thread/INFO]: TheDarkAbility left the game
-[18:01:07] [Server thread/INFO]: Raptor346 lost connection: Server closed
-[18:01:07] [Server thread/INFO]: Raptor346 left the game
-[18:01:07] [Server thread/INFO]: Saving worlds
-[18:01:07] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[18:01:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:01:12] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[18:01:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:01:12] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[18:01:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:01:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:01:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:01:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:04:56] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[18:04:56] [Server thread/INFO]: Loading properties
+[18:04:57] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-2040c4c-77fd87e (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[18:04:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:04:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:04:58] [Server thread/INFO]: Debug logging is disabled
+[18:04:58] [Server thread/INFO]: Default game type: SURVIVAL
+[18:04:58] [Server thread/INFO]: Generating keypair
+[18:04:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:05:00] [Server thread/INFO]: Using default channel type
+[18:05:01] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[18:05:32] [Server thread/WARN]: Legacy plugin Ping v1.5.2 does not specify an api-version.
+[18:05:32] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.1.6
+[18:05:32] [Server thread/INFO]: [Timber] Loading Timber v1.0.7
+[18:05:32] [Server thread/INFO]: [Ping] Loading Ping v1.5.2
+[18:05:32] [Server thread/INFO]: [OpenInv] Loading OpenInv v4.1.0
+[18:05:32] [Server thread/INFO]: [DeadChest] Loading DeadChest v3.2
+[18:05:32] [Server thread/INFO]: [InvSort] Loading InvSort v1.1.0
+[18:05:32] [Server thread/INFO]: [SilkSpawners] Loading SilkSpawners v6.0.0
+[18:05:32] [Server thread/INFO]: Preparing level "world"
+[18:05:34] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[18:05:59] [Server thread/INFO]: Loaded 6 recipes
+[18:06:00] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:06:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:06:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:06:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:06:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:06:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:06:00] [Server thread/INFO]: Mob Spawn Range: 6
+[18:06:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:06:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:06:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:06:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:06:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:06:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:06:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:06:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:06:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:06:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:06:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:06:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:06:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:06:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:06:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:06:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:06:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[18:06:00] [Server thread/INFO]: Max TNT Explosions: 100
+[18:06:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:06:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:06:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:06:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:06:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:06:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:06:00] [Server thread/INFO]: View Distance: 10
+[18:06:01] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:06:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:06:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:06:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:06:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:06:01] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:06:01] [Server thread/INFO]: Mob Spawn Range: 6
+[18:06:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[18:06:01] [Server thread/INFO]: Max TNT Explosions: 100
+[18:06:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:06:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:06:01] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:06:01] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:06:01] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:06:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:06:01] [Server thread/INFO]: View Distance: 10
+[18:06:01] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:06:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:06:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:06:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:06:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:06:01] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:06:01] [Server thread/INFO]: Mob Spawn Range: 6
+[18:06:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:06:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[18:06:01] [Server thread/INFO]: Max TNT Explosions: 100
+[18:06:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:06:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:06:01] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:06:01] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:06:01] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:06:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:06:01] [Server thread/INFO]: View Distance: 10
+[18:06:01] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[18:06:06] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:06] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:06] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:06] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:06] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:06] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:06] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:06] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:06] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:06] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:06] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:07] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[18:06:07] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:08] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:08] [Server thread/INFO]: Preparing spawn area: 14%
+[18:06:09] [Server thread/INFO]: Preparing spawn area: 19%
+[18:06:09] [Server thread/INFO]: Preparing spawn area: 19%
+[18:06:10] [Server thread/INFO]: Preparing spawn area: 66%
+[18:06:10] [Server thread/INFO]: Time elapsed: 9397 ms
+[18:06:10] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[18:06:14] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:14] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:14] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:14] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:14] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:14] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:14] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:14] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:15] [Server thread/INFO]: Preparing spawn area: 10%
+[18:06:15] [Server-Worker-2/INFO]: Preparing spawn area: 97%
+[18:06:16] [Server-Worker-3/INFO]: Preparing spawn area: 97%
+[18:06:16] [Server-Worker-3/INFO]: Preparing spawn area: 97%
+[18:06:17] [Server-Worker-2/INFO]: Preparing spawn area: 97%
+[18:06:17] [Server-Worker-2/INFO]: Preparing spawn area: 97%
+[18:06:18] [Server-Worker-2/INFO]: Preparing spawn area: 97%
+[18:06:18] [Server-Worker-3/INFO]: Preparing spawn area: 98%
+[18:06:18] [Server-Worker-3/INFO]: Preparing spawn area: 99%
+[18:06:19] [Server thread/INFO]: Time elapsed: 8226 ms
+[18:06:19] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[18:06:20] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:20] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:20] [Server thread/INFO]: Preparing spawn area: 0%
+[18:06:20] [Server-Worker-2/INFO]: Preparing spawn area: 83%
+[18:06:21] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[18:06:21] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[18:06:22] [Server-Worker-3/INFO]: Preparing spawn area: 83%
+[18:06:22] [Server-Worker-3/INFO]: Preparing spawn area: 83%
+[18:06:23] [Server-Worker-2/INFO]: Preparing spawn area: 86%
+[18:06:23] [Server-Worker-1/INFO]: Preparing spawn area: 93%
+[18:06:23] [Server thread/INFO]: Time elapsed: 4768 ms
+[18:06:23] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.1.6
+[18:06:24] [Server thread/INFO]: [ClearLag] Loading modules...
+[18:06:24] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[18:06:24] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[18:06:24] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[18:06:24] [Server thread/INFO]: [Timber] Enabling Timber v1.0.7
+[18:06:24] [Server thread/INFO]: Timber Log Materials: [DARK_OAK_LOG, ACACIA_LOG, OAK_LOG, BIRCH_LOG, JUNGLE_LOG, SPRUCE_LOG]
+[18:06:24] [Server thread/INFO]: Timber Axe Materials: [DIAMOND_AXE, IRON_AXE, STONE_AXE, GOLDEN_AXE, WOODEN_AXE]
+[18:06:24] [Thread-11/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.15]...
+[18:06:24] [Server thread/INFO]: [Ping] Enabling Ping v1.5.2
+[18:06:26] [Server thread/INFO]: [OpenInv] Enabling OpenInv v4.1.0
+[18:06:26] [Server thread/INFO]: [DeadChest] Enabling DeadChest v3.2
+[18:06:26] [Thread-11/INFO]: [ClearLag] No updates found!
+[18:06:26] [Server thread/INFO]: [InvSort] Enabling InvSort v1.1.0
+[18:06:26] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v6.0.0
+[18:06:27] [Server thread/INFO]: [SilkSpawners] WorldGuard was not found and support is disabled
+[18:06:27] [Server thread/INFO]: [SilkSpawners] Loading support for v1_15_R1
+[18:06:27] [Server thread/INFO]: [SilkSpawners] AutoUpdater is enabled.
+[18:06:27] [Server thread/INFO]: [SilkSpawners] Result from AutoUpdater is: NO_UPDATE
+[18:06:27] [Server thread/INFO]: [SilkSpawners] BarAPI is disabled due to config setting.
+[18:06:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:06:28] [Server thread/INFO]: Done (55.478s)! For help, type "help"
+[18:06:29] [Server thread/INFO]: com.mojang.authlib.GameProfile@195247d[id=<null>,name=TheDarkAbility,properties={},legacy=false] (/178.199.222.116:49635) lost connection: Disconnected
+[18:06:35] [Server thread/INFO]: [Server] restart in 60
+[18:07:05] [Server thread/INFO]: [Server] restart in 30
+[18:07:20] [Server thread/INFO]: [Server] restart in 15
+[18:07:30] [Server thread/INFO]: [Server] restart in 10
+[18:07:35] [Server thread/INFO]: [Server] restart in 5
+[18:07:36] [Server thread/INFO]: [Server] restart in 4
+[18:07:37] [Server thread/INFO]: [Server] restart in 3
+[18:07:38] [Server thread/INFO]: [Server] restart in 2
+[18:07:39] [Server thread/INFO]: [Server] restart in 1
+[18:07:40] [Server thread/INFO]: [Server] restart
+[18:07:40] [Server thread/INFO]: Stopping the server
+[18:07:40] [Server thread/INFO]: Stopping server
+[18:07:40] [Server thread/INFO]: [SilkSpawners] Disabling SilkSpawners v6.0.0
+[18:07:40] [Server thread/INFO]: [InvSort] Disabling InvSort v1.1.0
+[18:07:40] [Server thread/INFO]: [DeadChest] Disabling DeadChest v3.2
+[18:07:40] [Server thread/INFO]: [OpenInv] Disabling OpenInv v4.1.0
+[18:07:40] [Server thread/INFO]: [Ping] Disabling Ping v1.5.2
+[18:07:40] [Server thread/INFO]: [Timber] Disabling Timber v1.0.7
+[18:07:40] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.1.6
+[18:07:40] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[18:07:40] [Server thread/INFO]: Saving players
+[18:07:40] [Server thread/INFO]: Saving worlds
+[18:07:40] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[18:07:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:07:43] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[18:07:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:07:45] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[18:07:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:07:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:07:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:07:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
