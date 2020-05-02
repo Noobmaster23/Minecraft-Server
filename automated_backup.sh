@@ -33,10 +33,10 @@ screen -X stuff "stop
 sleep 30
 screen -X stuff "git add -A
 "
-sleep 20
+sleep 60
 screen -X stuff "git commit -a
 "
-sleep 20
+sleep 60
 screen -X stuff "backup"
 screen -X stuff "^s"
 screen -X stuff "^x"
@@ -49,6 +49,6 @@ screen -X stuff "Noobmaster23
 sleep 5
 screen -X stuff "wM8aw2AR2AzY022kX
 "
-sleep 120
+sleep 150
 screen -X stuff "sudo ./start.sh
 "
