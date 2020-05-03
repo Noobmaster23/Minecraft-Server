@@ -155,6 +155,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2020-05-03 14:41:04 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magma_block": {
     "criteria": {
       "has_magma_cream": "2020-05-02 02:12:00 +0200"
@@ -724,6 +730,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2020-05-03 14:41:04 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
     "criteria": {
       "has_red_flower": "2020-05-02 14:14:28 +0200"
@@ -953,6 +965,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2020-05-03 14:28:52 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/acacia_wood": {
     "criteria": {
       "has_log": "2020-05-02 17:47:44 +0200"
@@ -1040,6 +1058,12 @@
   "minecraft:recipes/building_blocks/glowstone": {
     "criteria": {
       "has_glowstone_dust": "2020-05-01 23:39:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_log": "2020-05-03 14:28:52 +0200"
     },
     "done": true
   },
@@ -1262,12 +1286,15 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:jungle_edge": "2020-05-03 14:50:41 +0200",
       "minecraft:forest": "2020-05-01 21:10:38 +0200",
       "minecraft:mountains": "2020-05-02 17:24:43 +0200",
       "minecraft:taiga": "2020-05-01 21:05:34 +0200",
       "minecraft:desert_hills": "2020-05-02 17:42:07 +0200",
       "minecraft:taiga_hills": "2020-05-01 22:32:41 +0200",
       "minecraft:desert": "2020-05-02 17:34:41 +0200",
+      "minecraft:jungle": "2020-05-03 14:28:19 +0200",
+      "minecraft:jungle_hills": "2020-05-03 14:29:32 +0200",
       "minecraft:warm_ocean": "2020-05-02 17:53:40 +0200",
       "minecraft:deep_lukewarm_ocean": "2020-05-02 17:07:59 +0200",
       "minecraft:savanna_plateau": "2020-05-02 17:32:22 +0200",
@@ -1481,9 +1508,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2020-05-03 14:28:43 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
       "has_sandstone": "2020-05-02 17:35:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2020-05-03 14:30:10 +0200"
     },
     "done": true
   },
@@ -1566,6 +1605,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2020-05-03 14:30:10 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2020-05-01 21:16:09 +0200"
@@ -1629,6 +1674,12 @@
   "minecraft:recipes/misc/writable_book": {
     "criteria": {
       "has_book": "2020-05-02 03:47:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2020-05-03 15:11:01 +0200"
     },
     "done": true
   },
@@ -1833,6 +1884,12 @@
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2020-05-01 23:37:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2020-05-03 15:44:45 +0200"
     },
     "done": true
   },
@@ -2137,6 +2194,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2020-05-03 15:44:45 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/charcoal": {
     "criteria": {
       "has_log": "2020-05-01 21:06:16 +0200"
@@ -2362,6 +2425,12 @@
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-05-02 01:06:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2020-05-03 15:13:37 +0200"
     },
     "done": true
   },
@@ -2614,6 +2683,12 @@
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2020-05-01 23:24:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2020-05-03 14:28:43 +0200"
     },
     "done": true
   },
@@ -3113,6 +3188,12 @@
   "minecraft:recipes/decorations/pink_carpet_from_white_carpet": {
     "criteria": {
       "has_pink_dye": "2020-05-02 14:47:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2020-05-03 14:41:04 +0200"
     },
     "done": true
   },
