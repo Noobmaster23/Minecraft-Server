@@ -386,6 +386,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2020-05-04 20:30:40 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2020-05-01 21:20:11 +0200"
@@ -599,6 +605,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2020-05-04 20:30:40 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2020-05-01 21:33:41 +0200"
@@ -692,6 +704,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2020-05-02 01:36:33 +0200",
+      "minecraft:pillager": "2020-05-04 23:48:53 +0200",
       "minecraft:skeleton": "2020-05-01 21:24:34 +0200",
       "minecraft:zombie_pigman": "2020-05-02 01:04:04 +0200",
       "minecraft:ghast": "2020-05-02 00:07:34 +0200",
@@ -709,6 +722,12 @@
       "minecraft:zombie_villager": "2020-05-03 20:04:21 +0200"
     },
     "done": false
+  },
+  "minecraft:recipes/decorations/brown_glazed_terracotta": {
+    "criteria": {
+      "has_brown_terracotta": "2020-05-04 21:23:06 +0200"
+    },
+    "done": true
   },
   "minecraft:recipes/misc/ender_eye": {
     "criteria": {
@@ -864,6 +883,24 @@
   "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_red_dye": "2020-05-02 14:56:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2020-05-04 20:30:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting": {
+    "criteria": {
+      "has_coal_ore": "2020-05-04 22:41:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2020-05-04 20:03:33 +0200"
     },
     "done": true
   },
@@ -1383,6 +1420,7 @@
       "minecraft:desert": "2020-05-02 17:34:41 +0200",
       "minecraft:jungle": "2020-05-03 14:28:19 +0200",
       "minecraft:jungle_hills": "2020-05-03 14:29:32 +0200",
+      "minecraft:snowy_beach": "2020-05-04 20:21:42 +0200",
       "minecraft:warm_ocean": "2020-05-02 17:53:40 +0200",
       "minecraft:deep_lukewarm_ocean": "2020-05-02 17:07:59 +0200",
       "minecraft:savanna_plateau": "2020-05-02 17:32:22 +0200",
@@ -1390,8 +1428,10 @@
       "minecraft:dark_forest": "2020-05-02 14:16:13 +0200",
       "minecraft:river": "2020-05-01 21:20:38 +0200",
       "minecraft:lukewarm_ocean": "2020-05-02 17:07:45 +0200",
+      "minecraft:snowy_taiga": "2020-05-04 20:21:52 +0200",
       "minecraft:wooded_mountains": "2020-05-02 17:24:58 +0200",
       "minecraft:wooded_hills": "2020-05-01 21:35:01 +0200",
+      "minecraft:stone_shore": "2020-05-04 20:20:57 +0200",
       "minecraft:swamp": "2020-05-02 17:25:30 +0200",
       "minecraft:savanna": "2020-05-02 17:32:04 +0200",
       "minecraft:plains": "2020-05-01 21:07:47 +0200"
@@ -1530,6 +1570,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2020-05-04 19:29:04 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
     "criteria": {
       "has_red_flower": "2020-05-02 17:02:03 +0200"
@@ -1566,6 +1612,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2020-05-04 20:30:40 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis": "2020-05-01 21:49:37 +0200"
@@ -1593,6 +1645,12 @@
   "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_orange_dye": "2020-05-02 14:57:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2020-05-04 20:30:51 +0200"
     },
     "done": true
   },
@@ -1630,6 +1688,12 @@
     "criteria": {
       "has_golden_sword": "2020-05-02 01:34:27 +0200",
       "has_golden_horse_armor": "2020-05-02 01:34:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting": {
+    "criteria": {
+      "has_diamond_ore": "2020-05-04 22:45:43 +0200"
     },
     "done": true
   },
@@ -1840,6 +1904,12 @@
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_stick": "2020-05-01 21:08:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_the_recipe": "2020-05-04 22:05:33 +0200"
     },
     "done": true
   },
@@ -2057,6 +2127,12 @@
   "minecraft:recipes/redstone/jungle_trapdoor": {
     "criteria": {
       "has_planks": "2020-05-03 20:15:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2020-05-04 20:30:51 +0200"
     },
     "done": true
   },
@@ -2469,6 +2545,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/diamond_from_smelting": {
+    "criteria": {
+      "has_diamond_ore": "2020-05-04 22:45:43 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/item_frame": {
     "criteria": {
       "has_leather": "2020-05-02 04:38:47 +0200"
@@ -2745,6 +2827,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2020-05-04 19:29:04 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_the_recipe": "2020-05-01 21:08:36 +0200"
@@ -2901,6 +2989,12 @@
     },
     "done": true
   },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2020-05-04 18:56:37 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
       "has_gold_ingot": "2020-05-01 23:21:18 +0200"
@@ -2959,6 +3053,12 @@
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2020-05-01 21:08:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting": {
+    "criteria": {
+      "has_coal_ore": "2020-05-04 22:41:15 +0200"
     },
     "done": true
   },
@@ -3339,6 +3439,12 @@
       "has_stone": "2020-05-01 23:22:30 +0200"
     },
     "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "textures/entity/cat/ragdoll.png": "2020-05-04 19:48:47 +0200"
+    },
+    "done": false
   },
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
