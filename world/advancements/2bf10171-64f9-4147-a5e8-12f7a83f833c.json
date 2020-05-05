@@ -1402,6 +1402,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2020-05-05 11:53:29 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/magenta_bed": {
     "criteria": {
       "has_magenta_wool": "2020-05-02 18:28:22 +0200"
@@ -1872,6 +1878,12 @@
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_gravel": "2020-05-02 02:53:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2020-05-05 11:57:31 +0200"
     },
     "done": true
   },
@@ -2346,6 +2358,12 @@
   "minecraft:recipes/misc/coal": {
     "criteria": {
       "has_coal_block": "2020-05-02 16:07:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2020-05-05 11:57:31 +0200"
     },
     "done": true
   },
