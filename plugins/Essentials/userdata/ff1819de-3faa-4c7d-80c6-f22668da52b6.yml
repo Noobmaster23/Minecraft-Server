@@ -1,0 +1,19 @@
+lastAccountName: TheDarkAbility
+timestamps:
+  login: 1588802623251
+  logout: 1588798684664
+ipAddress: 178.199.222.116
+lastlocation:
+  world: world
+  x: 411.3785710574739
+  y: 66.0
+  z: -24.006280186173868
+  yaw: -357.90094
+  pitch: 8.451673
+logoutlocation:
+  world: world_nether
+  x: 212.14194657872773
+  y: 64.0
+  z: -115.85452523190668
+  yaw: -181.07721
+  pitch: 19.324612
