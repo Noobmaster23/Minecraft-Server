@@ -1,1 +1,57 @@
-chestData: []
+chestData:
+- ==: ChestData
+  playerUUID: e3d36d46-f26f-41ee-81b9-655f5d207b6f
+  holographicTimer: world;367.5;70.79999995231628;76.5
+  worldName: world
+  as_timer_id: 8624ab61-6deb-434a-9aa3-5f2b6ab8e36f
+  playerName: Aventador007
+  isInfinity: false
+  as_owner_id: 4227d005-6157-44da-baee-d165d69c01e7
+  chestDate: 2020-05-06T15:26:50.101Z
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2230
+    type: TORCH
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2230
+    type: SPRUCE_SAPLING
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  chestLocation: world;367.0;72.0;76.0

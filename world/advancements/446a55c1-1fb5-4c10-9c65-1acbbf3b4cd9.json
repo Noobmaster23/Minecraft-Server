@@ -618,6 +618,7 @@
       "minecraft:creeper": "2020-05-01 22:22:14 +0200",
       "minecraft:witch": "2020-05-01 22:20:20 +0200",
       "minecraft:wither_skeleton": "2020-05-02 01:35:53 +0200",
+      "minecraft:cave_spider": "2020-05-06 17:03:51 +0200",
       "minecraft:enderman": "2020-05-01 21:35:21 +0200",
       "minecraft:zombie": "2020-05-01 21:21:17 +0200",
       "minecraft:zombie_villager": "2020-05-04 18:53:29 +0200"
@@ -699,6 +700,12 @@
   "minecraft:recipes/decorations/pink_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-05-03 21:30:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_red_flower": "2020-05-06 17:23:57 +0200"
     },
     "done": true
   },
@@ -945,6 +952,12 @@
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
       "has_stick": "2020-05-01 21:07:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_log": "2020-05-06 15:26:07 +0200"
     },
     "done": true
   },
@@ -2221,6 +2234,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2020-05-06 15:33:36 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_granite": "2020-05-01 21:53:05 +0200"
@@ -2636,6 +2655,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2020-05-06 15:26:07 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_salmon": {
     "criteria": {
       "has_salmon": "2020-05-01 23:17:56 +0200"
@@ -2777,6 +2802,12 @@
   "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2020-05-02 00:58:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2020-05-06 15:25:20 +0200"
     },
     "done": true
   },
