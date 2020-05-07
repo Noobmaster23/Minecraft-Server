@@ -1,13 +1,21 @@
 lastAccountName: Raptor346
 timestamps:
-  login: 1588802797732
-  logout: 1588800241173
+  login: 1588804817318
+  logout: 1588807229858
+  lastteleport: 1588805938870
 ipAddress: 192.168.0.164
 logoutlocation:
   world: world
-  x: 363.60373278735545
+  x: 365.4919969632718
   y: 72.0
-  z: 73.30639455721966
-  yaw: 317.90735
-  pitch: 9.7182045
+  z: 78.26688702882014
+  yaw: 290.33005
+  pitch: 22.800642
 afk: false
+lastlocation:
+  world: world
+  x: 394.30000001192093
+  y: 70.9375
+  z: 60.33044507037752
+  yaw: -80.84959
+  pitch: 26.999962
