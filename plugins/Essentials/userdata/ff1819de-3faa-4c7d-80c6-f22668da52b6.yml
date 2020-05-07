@@ -1,7 +1,7 @@
 lastAccountName: TheDarkAbility
 timestamps:
-  login: 1588804803757
-  logout: 1588807242205
+  login: 1588879615790
+  logout: 1588883080331
 ipAddress: 178.199.222.116
 lastlocation:
   world: world
@@ -12,8 +12,9 @@ lastlocation:
   pitch: -90.0
 logoutlocation:
   world: world
-  x: 426.30597296045784
-  y: 95.0
-  z: 26.809778721527977
-  yaw: 25.617981
-  pitch: 22.408792
+  x: 428.95950723010026
+  y: 91.88296090285083
+  z: 5.764693297941671
+  yaw: 40.321507
+  pitch: 13.936124
+afk: false
