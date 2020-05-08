@@ -542,6 +542,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2020-05-08 11:41:01 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2020-05-01 21:23:52 +0200"
@@ -590,6 +596,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2020-05-08 11:40:04 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2020-05-02 00:58:03 +0200"
@@ -621,6 +633,7 @@
       "minecraft:cave_spider": "2020-05-06 17:03:51 +0200",
       "minecraft:enderman": "2020-05-01 21:35:21 +0200",
       "minecraft:zombie": "2020-05-01 21:21:17 +0200",
+      "minecraft:drowned": "2020-05-08 11:34:30 +0200",
       "minecraft:zombie_villager": "2020-05-04 18:53:29 +0200"
     },
     "done": false
@@ -763,6 +776,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2020-05-08 11:41:01 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2020-05-03 21:30:22 +0200"
@@ -784,6 +803,12 @@
   "minecraft:recipes/building_blocks/orange_concrete_powder": {
     "criteria": {
       "has_gravel": "2020-05-02 03:30:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2020-05-08 11:41:01 +0200"
     },
     "done": true
   },
@@ -826,6 +851,12 @@
   "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
       "has_blaze_rod": "2020-05-02 01:35:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2020-05-08 11:40:04 +0200"
     },
     "done": true
   },
@@ -1108,6 +1139,18 @@
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2020-05-01 21:18:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_oak_planks": "2020-05-08 11:41:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2020-05-08 11:41:01 +0200"
     },
     "done": true
   },
@@ -1759,6 +1802,7 @@
       "cooked_mutton": "2020-05-01 22:31:01 +0200",
       "sweet_berries": "2020-05-01 22:47:10 +0200",
       "cooked_beef": "2020-05-01 22:53:05 +0200",
+      "apple": "2020-05-08 11:46:38 +0200",
       "cooked_cod": "2020-05-02 15:10:35 +0200",
       "bread": "2020-05-04 19:05:31 +0200",
       "cooked_salmon": "2020-05-02 01:24:49 +0200"
@@ -1777,9 +1821,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2020-05-08 11:40:04 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2020-05-01 21:16:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2020-05-08 11:40:04 +0200"
     },
     "done": true
   },
@@ -1930,6 +1986,12 @@
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2020-05-02 00:05:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2020-05-08 11:41:01 +0200"
     },
     "done": true
   },
@@ -2607,6 +2669,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_jungle_planks": "2020-05-08 11:40:04 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brown_terracotta": {
     "criteria": {
       "has_terracotta": "2020-05-03 18:57:11 +0200"
@@ -2634,6 +2702,12 @@
   "minecraft:recipes/decorations/brown_carpet_from_white_carpet": {
     "criteria": {
       "has_brown_dye": "2020-05-03 18:56:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2020-05-08 11:41:01 +0200"
     },
     "done": true
   },
@@ -2703,6 +2777,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2020-05-08 11:40:04 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2020-05-01 21:20:53 +0200"
@@ -2718,6 +2798,12 @@
   "minecraft:recipes/redstone/repeater": {
     "criteria": {
       "has_redstone_torch": "2020-05-02 04:00:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2020-05-08 11:41:01 +0200"
     },
     "done": true
   },
@@ -2781,6 +2867,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2020-05-08 11:41:01 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2020-05-01 21:28:42 +0200"
@@ -2808,6 +2900,12 @@
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
       "has_iron_block": "2020-05-06 15:25:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2020-05-08 11:40:04 +0200"
     },
     "done": true
   },
@@ -2847,6 +2945,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2020-05-08 11:40:04 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_brick_stairs": {
     "criteria": {
       "has_nether_brick": "2020-05-02 01:38:41 +0200"
@@ -2868,6 +2972,12 @@
   "minecraft:husbandry/breed_an_animal": {
     "criteria": {
       "bred": "2020-05-04 18:57:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2020-05-08 11:40:04 +0200"
     },
     "done": true
   },
