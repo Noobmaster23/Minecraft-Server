@@ -1469,6 +1469,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2020-05-11 18:03:22 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
     "criteria": {
       "has_red_flower": "2020-05-02 18:40:04 +0200"
@@ -1940,6 +1946,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2020-05-01 21:25:41 +0200",
+      "honey_bottle": "2020-05-11 18:03:25 +0200",
       "cooked_mutton": "2020-05-01 21:44:59 +0200",
       "sweet_berries": "2020-05-01 22:09:04 +0200",
       "cooked_beef": "2020-05-01 21:32:21 +0200",
@@ -1949,6 +1956,7 @@
       "rotten_flesh": "2020-05-01 21:24:57 +0200",
       "suspicious_stew": "2020-05-05 17:15:57 +0200",
       "salmon": "2020-05-01 22:11:36 +0200",
+      "melon_slice": "2020-05-11 18:01:50 +0200",
       "cooked_chicken": "2020-05-01 23:51:51 +0200",
       "carrot": "2020-05-05 16:02:17 +0200"
     },
@@ -2631,6 +2639,12 @@
   "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
       "has_smooth_stone": "2020-05-02 19:49:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2020-05-11 18:03:22 +0200"
     },
     "done": true
   },
