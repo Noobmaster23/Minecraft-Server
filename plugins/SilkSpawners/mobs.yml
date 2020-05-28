@@ -1,4 +1,4 @@
-# creatures: key is official creature type name (mobID), case-sensitive, from https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+# The creatures key is official creature type name (mobID), case-sensitive, from https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
 creatures:
   enderpearl:
     enable: false
@@ -6,8 +6,8 @@ creatures:
     enable: false
   tipped_arrow:
     enable: false
- 
-   # Vanilla mobs, from https://minecraft.gamepedia.com/Data_values/Entity_IDs
+
+  # Vanilla mobs, from https://minecraft.gamepedia.com/Java_Edition_data_values#Entities for 1.13+ and https://minecraft.gamepedia.com/Java_Edition_data_values/Pre-flattening/Entity_IDs for up to 1.12
   Creeper:
     aliases: &id001
     - c
@@ -757,7 +757,7 @@ creatures:
     enableCraftingSpawner: true
     enableSpawnEggOverride: true
     displayName: Bee
- 
+
   # Non-mob vanilla entities
   # Enable on your own risk, some might work, some not!
   Item:
